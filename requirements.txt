@@ -1,0 +1,4 @@
+biopython==1.81
+luigi==3.2.1
+pandas==2.0.0
+lxml==4.9.2
