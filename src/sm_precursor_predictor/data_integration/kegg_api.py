@@ -21,14 +21,14 @@ class KeggApi:
         return KeggApi.to_df(info)
 
     @staticmethod
-    def get(query, **kwargs):
-        result = kegg_api.kegg_get(query, **kwargs).read()
+    def get(query, option=None):
+        result = kegg_api.kegg_get(query, option).read()
         return result
 
     @staticmethod
     def get_links(database1, database2):
         result = kegg_api.kegg_link(database1, database2).read()
-        return result
+        return KeggApi.to_df(result)
 
     @staticmethod
     def find(database, entry):
