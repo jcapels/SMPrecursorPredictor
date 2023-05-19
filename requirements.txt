@@ -2,5 +2,4 @@ biopython==1.81
 lxml==4.9.2
 BeautifulSoup4==4.12.2
 html5lib==1.1
-equilibrator-api==0.4.7
 luigi==3.2.1

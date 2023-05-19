@@ -1,6 +1,3 @@
-from sqlalchemy.orm.exc import MultipleResultsFound
-
-from sm_precursor_predictor.data_integration.equilibrator_caller import EquilibratorCaller
 from sm_precursor_predictor.data_integration.kegg_api import KeggApi
 import networkx as nx
 
