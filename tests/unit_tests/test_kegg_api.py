@@ -16,6 +16,10 @@ class TestKeggApi(TestCase):
         self.assertEqual(list_of_pathways.shape, (141, 2))
         self.assertIn("br08011", list_of_pathways[0].values)
 
+    def test_get_metabolites_in_pathway(self):
+        metabolites_in_pathway = KeggApi.get_links("compound", "path:map00902")
+        self.assertEqual(metabolites_in_pathway.shape, (152, 2))
+
     def test_get_metabolite(self):
         metabolite = KeggApi.get("C00200")
         self.assertIn("C00200", metabolite)
