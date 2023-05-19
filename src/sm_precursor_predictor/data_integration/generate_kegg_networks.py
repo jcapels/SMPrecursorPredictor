@@ -23,22 +23,29 @@ class KeggNetworkGenerator:
                     for entry in reaction_component.split(" "):
                         if entry.startswith("R"):
                             reaction_id = entry.strip()
+                            if reaction_id == "R02177":
+                                print()
                             break
 
-                if "EQUATION" in reaction_component:
+                if "RCLASS" in reaction_component:
+                    print()
 
-                    equation = reaction_component.split("  ")
-                    equation = " ".join(equation[1:]).strip()
-                    # get the all the identifiers in the form RXXXXX
-                    substrates, products = equation.split("<=>")
-
-                    substrates_identifiers = [x.strip() for x in substrates.split(" ") if x.startswith("C")]
-                    products_identifiers = [x.strip() for x in products.split(" ") if x.startswith("C")]
-
-                    for substrate in substrates_identifiers:
-                        G.add_edge(substrate, reaction_id)
-
-                    for product in products_identifiers:
-                        G.add_edge(reaction_id, product)
+                # if "EQUATION" in reaction_component:
+                #
+                #     equation = reaction_component.split("  ")
+                #     equation = " ".join(equation[1:]).strip()
+                #     # get the all the identifiers in the form RXXXXX
+                #     substrates, products = equation.split("<=>")
+                #
+                #     substrates_identifiers = [x.strip() for x in substrates.split(" ") if x.startswith("C")]
+                #     products_identifiers = [x.strip() for x in products.split(" ") if x.startswith("C")]
+                #
+                #     for substrate in substrates_identifiers:
+                #         G.add_edge(substrate, reaction_id)
+                #         G.add_edge(reaction_id, substrate)
+                #
+                #     for product in products_identifiers:
+                #         G.add_edge(reaction_id, product)
+                #         G.add_edge(product, reaction_id)
 
         return G
