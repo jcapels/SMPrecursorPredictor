@@ -39,25 +39,25 @@ class KEGGPrecursorFinder:
         allcomp = [node for node in self.graph if re.search(pattern, node)]
         return allcomp
     
+    
     def check_path_from_compound_to_precursor(self):
         """
         Check if there is a path from a compound to a precursor in the graph.
         """
         compounds = self.get_allcompounds_of_pathway()
         precursors = self.get_precursors_in_pathway()
-        
-        path_found = False
+
 
         for compound in compounds:
             for precursor in precursors:
                 try:
-                    path = KEGGPrecursorFinder.find_path_from_source_to_target(self.graph, compound, precursor)
+                    path = self.find_path_from_source_to_target(compound, precursor)
                     if path:
-                        path_str = " -> ".join(path)
-                        print(f"Path found: {path_str}")
-                        path_found = True
+                        return True
                 except nx.NodeNotFound:
-                    print(f"No path found from compound {compound} to precursor {precursor}.")
+                    pass
 
-        if not path_found:
-            print("No path found between any compound and precursor.")
+        return False
+
+
+    
