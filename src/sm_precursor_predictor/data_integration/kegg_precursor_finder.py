@@ -58,6 +58,41 @@ class KEGGPrecursorFinder:
                     pass
 
         return False
+    
+    def get_compounds_for_precursors(self):
+        """
+        Get a dictionary mapping precursors to their associated compounds for all map IDs.
+        """
+        precursor_compound_dict = {}
+
+        map_ids = self.iloc[:, 0].unique().tolist()
+
+        for map_id in map_ids:
+
+            graph = KeggNetworkGenerator.get_kegg_network(map_id)
+            precursors = self.get_precursors_in_pathway(map_id, self)
+
+            for precursor in precursors:
+                precursor_compound_dict.setdefault(precursor, [])
+
+            compounds = self.get_allcompounds_of_pathway(graph)
+
+
+            for precursor in precursors:
+                for compound in compounds:
+                    try:
+                        if compound in graph and precursor in graph:
+                            path = self.find_path_from_source_to_target(graph, compound, precursor)
+                            if path:
+                                if precursor not in precursor_compound_dict:
+                                        precursor_compound_dict[precursor] = []
+                                precursor_compound_dict[precursor] = list(set(precursor_compound_dict[precursor]) | set([compound]))
+                    except (nx.NodeNotFound,nx.NetworkXNoPath):
+                        pass
+
+
+        return precursor_compound_dict
+
 
 
     
