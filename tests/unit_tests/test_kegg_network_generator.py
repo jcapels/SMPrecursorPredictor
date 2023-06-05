@@ -6,4 +6,4 @@ from sm_precursor_predictor.data_integration.generate_kegg_networks import KeggN
 class TestKeggNetworkGenerator(TestCase):
 
     def test_kegg_network_generator(self):
-        KeggNetworkGenerator.get_kegg_network("map00902")
+        KeggNetworkGenerator.get_kegg_network("map00960")

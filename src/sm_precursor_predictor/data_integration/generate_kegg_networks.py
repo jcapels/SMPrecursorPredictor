@@ -38,7 +38,8 @@ class KeggNetworkGenerator:
         """
         Get the KEGG network for the given map_id
         """
-        to_ignore = [f"C{str(x).zfill(5)}" for x in range(1, 51)]
+        to_ignore = [f"C{str(x).zfill(5)}" for x in range(1, 47)]
+        
         if cofactor_list is None:
             cofactor_list = []
         df_reactions_in_map = KeggApi.get_links("reaction", f"path:{map_id}")
@@ -56,7 +57,7 @@ class KeggNetworkGenerator:
                     for entry in reaction_component.split(" "):
                         if entry.startswith("R"):
                             reaction_id = entry.strip()
-                            if reaction_id == "R02177":
+                            if reaction_id == "R00462":
                                 print()
                             break
 
