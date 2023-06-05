@@ -98,3 +98,16 @@ class KeggNetworkGenerator:
         nx.set_node_attributes(G, mol_attr)
 
         return G
+
+    @staticmethod
+    def generate_graphs_for_map_ids(map_ids):
+        """
+        Generate and store graphs for the given map IDs as a pickle file.
+        """
+        graph_dict = {}
+
+        for map_id in map_ids:
+            graph = KeggNetworkGenerator.get_kegg_network(map_id)
+            graph_dict[map_id] = graph
+
+        return graph_dict
