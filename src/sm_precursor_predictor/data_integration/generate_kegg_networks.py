@@ -39,7 +39,7 @@ class KeggNetworkGenerator:
         Get the KEGG network for the given map_id
         """
         to_ignore = [f"C{str(x).zfill(5)}" for x in range(1, 47)]
-        
+
         if cofactor_list is None:
             cofactor_list = []
         df_reactions_in_map = KeggApi.get_links("reaction", f"path:{map_id}")
