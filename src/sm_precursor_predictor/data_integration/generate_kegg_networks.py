@@ -1,28 +1,33 @@
-import re
+from time import sleep
+
+from retry import retry
 
 from sm_precursor_predictor.data_integration.kegg_api import KeggApi
 import networkx as nx
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from Bio.KEGG import REST as kegg_api
 from rdkit import Chem
 from tqdm import tqdm
 
+
 class KeggNetworkGenerator:
 
-   
     @staticmethod
+    @retry(URLError, tries=10, delay=2)
     def get_compound_structure(compound_id):
         try:
-            result = kegg_api.kegg_get(compound_id, option='mol').read()
-            return result
+            try:
+                result = kegg_api.kegg_get(compound_id, option='mol').read()
+                return result
+            except URLError:
+                result = kegg_api.kegg_get(compound_id, option='mol').read()
+                return result
         except HTTPError:
-            print(compound_id)
             return None
-
 
     @staticmethod
     def convert_to_smiles(compound_id):
-   
+
         structure = KeggNetworkGenerator.get_compound_structure(compound_id)
         if structure is not None:
             mol = Chem.MolFromMolBlock(structure)
@@ -57,8 +62,6 @@ class KeggNetworkGenerator:
                     for entry in reaction_component.split(" "):
                         if entry.startswith("R"):
                             reaction_id = entry.strip()
-                            if reaction_id == "R00462":
-                                print()
                             break
 
                 if "EQUATION" in reaction_component:
@@ -84,7 +87,7 @@ class KeggNetworkGenerator:
 
                     for product in products_identifiers:
                         if product not in cofactor_list and product not in to_ignore:
-                            
+
                             if product in mol_attr.keys():
                                 G.add_edge(reaction_id, product)
                                 G.add_edge(product, reaction_id)
@@ -94,7 +97,7 @@ class KeggNetworkGenerator:
                                     mol_attr[product] = {"mol": mol}
                                     G.add_edge(product, reaction_id)
                                     G.add_edge(reaction_id, product)
-        
+
         nx.set_node_attributes(G, mol_attr)
 
         return G
