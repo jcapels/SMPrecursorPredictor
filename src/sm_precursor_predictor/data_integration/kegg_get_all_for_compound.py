@@ -57,18 +57,19 @@ class KEGGAllCompoundInfoExtractor:
         for map_id in map_ids:
 
             kegg_precursors_finder = KEGGPrecursorFinder(map_id, data, create_graph=False)
-            compounds = KEGGPrecursorFinder.get_all_compounds_of_pathway(graphs[map_id])
-            precursors = KEGGPrecursorFinder.get_precursors_in_pathway(map_id, data)
+            kegg_precursors_finder.graph = graphs.get(map_id)
+            compounds = kegg_precursors_finder.get_all_compounds_of_pathway()
+            precursors = kegg_precursors_finder.get_precursors_in_pathway()
 
             if len(precursors) == 1:
                 graph = graphs.get(map_id)
                 kegg_precursors_finder.graph = graph
 
                 for compound in compounds:
-
-                    compounds = kegg_precursors_finder.get_all_compounds_of_pathway()
                     compound_prec_dict[compound] = [list(precursors)[0]]
-                    compound_prec_dict = {compound: precursors for compound, precursors in compound_prec_dict.items() if compound not in precursors}
+                    compound_prec_dict = {compound: precursors for compound, precursors in compound_prec_dict.items() if
+                                          compound not in precursors}
+
 
             else:
                 for compound in compounds:
@@ -78,8 +79,7 @@ class KEGGAllCompoundInfoExtractor:
                         for precursor in precursors:
                             try:
                                 if precursor in graphs[map_id] and compound in graphs[map_id]:
-                                    path = KEGGPrecursorFinder.find_path_from_source_to_target(graphs[map_id], precursor,
-                                                                                            compound)
+                                    path = kegg_precursors_finder.find_path_from_source_to_target(compound, precursor)
                                     if path:
                                         compound_prec_dict[compound] = list(
                                             set(compound_prec_dict[compound]) | {precursor})
@@ -126,7 +126,7 @@ class KEGGAllCompoundInfoExtractor:
 
         for compound, precursors in compound_precursor_dict.items():
             compound_structure = None
-            
+
             for map_id, graph in graphs.items():
                 if compound in graph.nodes:
                     compound_structure = graph.nodes[compound]["mol"]
