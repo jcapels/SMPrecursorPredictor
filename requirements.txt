@@ -6,3 +6,4 @@ luigi==3.2.1
 pandas==2.0.1
 networkx==3.1
 rdkit-pypi==2022.9.5
+deepmol==1.0.1
