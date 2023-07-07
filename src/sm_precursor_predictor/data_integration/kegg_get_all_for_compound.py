@@ -1,3 +1,4 @@
+from sm_precursor_predictor.data_integration.generate_kegg_networks import KeggNetworkGenerator
 from sm_precursor_predictor.data_integration.kegg_precursor_finder import KEGGPrecursorFinder
 import networkx as nx
 from rdkit import Chem
@@ -114,17 +115,15 @@ class KEGGAllCompoundInfoExtractor:
         return compound_map_dict
 
     @staticmethod
-    def generate_sdf(compound_precursor_dict, compound_map_dict, graphs):
+    def generate_sdf(compound_prec_dict, compound_map_dict, graphs):
+        writer = Chem.SDWriter('phenolics_and_terpenoids.sdf')
 
-        """
-        generates an SDF by mapping compounds to their associated precursors and map IDs.
-        """
+        precursor_ids = set(precursor for precursors in compound_prec_dict.values() for precursor in precursors)
+        additional_precursor_ids = {'C00148', 'C00108', 'C00047', 'C00062', 'C00041', 'C00049', 'C01852', 'C00129',
+                                    'C00135', 'C00187'}
+        precursor_ids.update(additional_precursor_ids)
 
-        writer = Chem.SDWriter('output.sdf')
-
-        precursor_ids = set(precursor for precursors in compound_precursor_dict.values() for precursor in precursors)
-
-        for compound, precursors in compound_precursor_dict.items():
+        for compound, precursors in compound_prec_dict.items():
             compound_structure = None
 
             for map_id, graph in graphs.items():
@@ -134,6 +133,8 @@ class KEGGAllCompoundInfoExtractor:
 
             if compound_structure:
                 mol = Chem.MolFromMolBlock(compound_structure)
+
+                mol.SetProp("Compound_ID", compound)
 
                 for precursor_id in precursor_ids:
                     flag = "1" if precursor_id in precursors else "0"
@@ -148,6 +149,25 @@ class KEGGAllCompoundInfoExtractor:
                     print(f"Compound {compound} has zero precursors")
 
             else:
-                print(f"Failed to retrieve structure for compound {compound}")
+                result = KeggNetworkGenerator.get_compound_structure(compound.strip())
+                if result:
+                    mol = Chem.MolFromMolBlock(result)
+
+                    mol.SetProp("Compound_ID", compound)
+
+                    for precursor_id in precursor_ids:
+                        flag = "1" if precursor_id in precursors else "0"
+                        precursor_prop_name = precursor_id
+                        mol.SetProp(precursor_prop_name, flag)
+
+                    mol.SetProp("Map_IDs", ";".join(compound_map_dict.get(compound, [])))
+
+                    writer.write(mol)
+
+                    if all(precursor_id == '0' for precursor_id in precursors):
+                        print(f"Compound {compound} has zero precursors")
+                else:
+                    print(f"Failed to retrieve structure for compound {compound}")
 
         writer.close()
+
