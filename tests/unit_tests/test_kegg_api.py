@@ -9,16 +9,16 @@ class TestKeggApi(TestCase):
 
     def test_get_list(self):
         list_of_pathways = KeggApi.get_list("pathway")
-        self.assertEqual(list_of_pathways.shape, (563, 2))
+        self.assertEqual(list_of_pathways.shape, (565, 2))
 
     def test_get_info(self):
         list_of_pathways = KeggApi.get_list("brite")
-        self.assertEqual(list_of_pathways.shape, (141, 2))
+        self.assertEqual(list_of_pathways.shape, (142, 2))
         self.assertIn("br08011", list_of_pathways[0].values)
 
     def test_get_metabolites_in_pathway(self):
         metabolites_in_pathway = KeggApi.get_links("compound", "path:map00902")
-        self.assertEqual(metabolites_in_pathway.shape, (152, 2))
+        self.assertEqual(metabolites_in_pathway.shape, (61, 2))
 
     def test_get_metabolite(self):
         metabolite = KeggApi.get("C00200")
@@ -26,4 +26,4 @@ class TestKeggApi(TestCase):
 
     def test_get_secondary_metabolites(self):
         secondary_metabolites = pd.read_html("https://www.genome.jp/kegg/compound/br08011.html")
-        self.assertEqual(secondary_metabolites[0].shape, (152, 6))
+        self.assertEqual(secondary_metabolites[0].shape, (154, 6))

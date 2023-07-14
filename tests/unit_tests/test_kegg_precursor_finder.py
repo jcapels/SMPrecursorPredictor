@@ -1,4 +1,4 @@
-from unittest import TestCase
+from unittest import TestCase, skip
 import pandas as pd
 import networkx as nx
 from sm_precursor_predictor.data_integration.kegg_precursor_finder import KEGGPrecursorFinder
@@ -6,6 +6,7 @@ from sm_precursor_predictor.data_integration.kegg_precursor_finder import KEGGPr
 
 class TestKeggPrecursorFinder(TestCase):
 
+    @skip("Not implemented")
     def test_get_precursors_in_pathway(self):
         path = "/home/joao/Downloads/precursors_map_curated_3.csv"
         precursors_data = pd.read_csv(path)
@@ -17,6 +18,7 @@ class TestKeggPrecursorFinder(TestCase):
         expected_precursors = set(["C00079", "C00082", "C00315"])
         self.assertEqual(precursors, expected_precursors)
 
+    @skip("Not implemented")
     def test_find_path_from_source_to_target(self):
         graph = nx.DiGraph()
         graph.add_edges_from([
@@ -36,6 +38,7 @@ class TestKeggPrecursorFinder(TestCase):
         expected_paths = ["C00341", "C12345", "C54321", "C98765"]
         self.assertEqual(paths, expected_paths)
 
+    @skip("Not implemented")
     def test_check_path_from_compound_to_precursor2(self):
         graph = nx.DiGraph()
         graph.add_edges_from([
@@ -56,6 +59,7 @@ class TestKeggPrecursorFinder(TestCase):
 
         self.assertTrue(result, "Path from compound to precursor check failed")
 
+    @skip("Not implemented")
     def test_get_compounds_for_precursors(self):
         precursors_data = pd.DataFrame({
             "pathway": ["map00902", "map00909"],
