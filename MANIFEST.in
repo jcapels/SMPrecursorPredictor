@@ -1,0 +1,2 @@
+recursive-include src/sm_precursor_predictor/prediction/sm_predictor_pipeline_motpe *
+recursive-include src/sm_precursor_predictor/prediction/sm_predictor_pipeline_tpe *
