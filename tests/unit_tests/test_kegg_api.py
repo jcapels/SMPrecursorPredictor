@@ -9,11 +9,11 @@ class TestKeggApi(TestCase):
 
     def test_get_list(self):
         list_of_pathways = KeggApi.get_list("pathway")
-        self.assertEqual(list_of_pathways.shape, (565, 2))
+        self.assertEqual(list_of_pathways.shape, (566, 2))
 
     def test_get_info(self):
         list_of_pathways = KeggApi.get_list("brite")
-        self.assertEqual(list_of_pathways.shape, (142, 2))
+        self.assertEqual(list_of_pathways.shape, (144, 2))
         self.assertIn("br08011", list_of_pathways[0].values)
 
     def test_get_metabolites_in_pathway(self):
