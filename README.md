@@ -48,7 +48,7 @@ pip install .
 ```bash
 conda create -n sm_precursor_predictor python=3.10
 conda activate sm_precursor_predictor
-pip install SMPrecursorPredictor
+pip install SMPrecursorPrediction
 ```
 
 ## Making predictions
