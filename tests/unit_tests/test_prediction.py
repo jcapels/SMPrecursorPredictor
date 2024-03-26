@@ -1,7 +1,7 @@
 import os
 from unittest import TestCase
 
-from sm_precursor_predictor import predict_precursors, predict_from_csv
+from sm_precursor_predictor import predict_precursors, predict_from_csv, get_prediction_and_explanation
 from tests import TEST_DIR
 
 
@@ -22,3 +22,14 @@ class TestPrediction(TestCase):
         predictions = predict_from_csv(os.path.join(TEST_DIR, "data", "data.csv"), "SMILES", "ID")
 
         self.assertTrue("Cholesterol" in predictions.loc[0, "predicted_precursors"])
+
+    def test_from_dataset_morgan_fp(self):
+
+        predictions = predict_from_csv(os.path.join(TEST_DIR, "data", "data.csv"), "SMILES", "ID", 
+                                       model = "Morgan FP + Ridge Classifier")
+        self.assertTrue("Cholesterol" in predictions.loc[0, "predicted_precursors"])
+
+    def test_explainability(self):
+
+        get_prediction_and_explanation(smiles="COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O[C@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)O")
+

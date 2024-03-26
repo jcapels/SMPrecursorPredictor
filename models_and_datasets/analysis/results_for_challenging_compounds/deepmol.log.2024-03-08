@@ -1,0 +1,4 @@
+2024-03-08 16:34:55,685 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-08 16:34:56,064 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-08 16:34:56,409 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-08 16:34:56,416 — ERROR — Features are not the same length/type... Recalculate features for all inputs!

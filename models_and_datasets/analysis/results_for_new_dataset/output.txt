@@ -1,0 +1,399 @@
+Setting the default backend to "pytorch". You can change it in the ~/.dgl/config.json file or export the DGLBACKEND environment variable.  Valid options are: pytorch, mxnet, tensorflow (all lowercase)
+2024-02-12 14:12:11,087 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-02-12 14:12:11,155 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-02-12 14:12:12,140 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 14:12:30,542 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 14:12:53,013 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 14:13:12,814 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 14:13:17,274 — ERROR — Failed to featurize *C(=O)O[C@H]1CC(C)(C)C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)[C@@H](OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 14:13:17,275 — ERROR — Exception message: 
+2024-02-12 14:13:17,276 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/c2c(C)ccc(C)c2C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 14:13:17,278 — ERROR — Exception message: 
+2024-02-12 14:13:17,288 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 14:13:17,289 — ERROR — Exception message: 
+2024-02-12 14:13:17,361 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NC/C=C(/C)CO)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 14:13:17,362 — ERROR — Exception message: 
+2024-02-12 14:13:25,296 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NCC=C(C)C)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 14:13:25,297 — ERROR — Exception message: 
+2024-02-12 14:13:26,445 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 14:13:43,560 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 14:14:01,861 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 14:14:12,672 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:14:37,680 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 14:14:45,875 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:14:54,272 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 14:15:13,880 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 14:15:26,197 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 14:15:30,073 — ERROR — Failed to featurize *C(=O)OCC1OC(OC(C)(C)CCCC(C)=CC=CC(C)=CC=CC(C)=CC=CC=C(C)C=CC=C(C)C=Cc2c(C)ccc(C)c2C)C(O)C(O)C1O. Appending empty array
+2024-02-12 14:15:30,074 — ERROR — Exception message: 
+2024-02-12 14:15:30,079 — ERROR — Failed to featurize *C(=O)OCC1OC(OC(C)(C)CCCC(C)=CC=CC(C)=CC=CC(C)=CC=CC=C(C)C=CC=C(C)C=CC2=C(C)CCCC2(C)C)C(O)C(O)C1O. Appending empty array
+2024-02-12 14:15:30,079 — ERROR — Exception message: 
+2024-02-12 14:15:30,086 — ERROR — Failed to featurize *C(=O)OC1CC(C)(C)C(C=CC(C)=CC=CC(C)=CC=CC=C(C)C=CC=C(C)C=CC2=C(C)C(=O)C(OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 14:15:30,087 — ERROR — Exception message: 
+2024-02-12 14:15:30,118 — ERROR — Failed to featurize *C1OC(COP(=O)(O)OC2C(COP(=O)(O)OC3C(COP(=O)(O)O)OC(*)C3O)OC(n3cnc4c(NCC=C(C)CO)ncnc43)C2O)C(O)C1O. Appending empty array
+2024-02-12 14:15:30,119 — ERROR — Exception message: 
+No feature in X meets the variance threshold 0.13790
+2024-02-12 14:15:30,716 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 14:15:44,592 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:18:16,860 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 14:18:37,607 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 14:18:46,897 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 14:18:55,787 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 14:19:10,334 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 14:19:27,366 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 14:19:46,331 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 14:19:56,024 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 14:20:18,623 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:22:20,965 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:24:41,408 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:27:55,846 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:30:22,974 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:32:48,049 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:33:00,582 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:33:11,952 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:33:23,471 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:33:33,740 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:33:42,698 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:33:54,496 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/c2c(C)ccc(C)c2C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 14:33:54,497 — ERROR — Exception message: 
+2024-02-12 14:33:54,505 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 14:33:54,506 — ERROR — Exception message: 
+2024-02-12 14:33:54,536 — ERROR — Failed to featurize *C(=O)O[C@H]1CC(C)(C)C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)[C@@H](OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 14:33:54,537 — ERROR — Exception message: 
+2024-02-12 14:33:54,570 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NC/C=C(/C)CO)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 14:33:54,570 — ERROR — Exception message: 
+2024-02-12 14:33:57,033 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NCC=C(C)C)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 14:33:57,034 — ERROR — Exception message: 
+2024-02-12 14:33:58,206 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:34:08,945 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:34:19,571 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:34:29,903 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:34:43,430 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:34:56,701 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:35:16,538 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:35:26,786 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:35:36,873 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:35:47,466 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:36:15,799 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:36:26,013 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:36:36,185 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:36:46,570 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:36:56,840 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:37:06,856 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:37:11,391 — ERROR — Failed to featurize *C(=O)O[C@H]1CC(C)(C)C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)[C@@H](OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 14:37:11,391 — ERROR — Exception message: 
+2024-02-12 14:37:11,406 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/c2c(C)ccc(C)c2C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 14:37:11,407 — ERROR — Exception message: 
+2024-02-12 14:37:11,407 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 14:37:11,408 — ERROR — Exception message: 
+2024-02-12 14:37:11,460 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NC/C=C(/C)CO)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 14:37:11,460 — ERROR — Exception message: 
+2024-02-12 14:37:16,399 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NCC=C(C)C)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 14:37:16,399 — ERROR — Exception message: 
+2024-02-12 14:37:17,589 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+No neighbors found for test samples array([  0,   1,   2,   3,   4,   6,   7,   8,   9,  10,  11,  12,  13,
+        15,  16,  17,  18,  19,  22,  23,  24,  25,  26,  27,  28,  30,
+        31,  32,  33,  34,  35,  36,  37,  38,  39,  40,  41,  42,  43,
+        44,  45,  46,  47,  48,  49,  50,  51,  52,  53,  54,  55,  56,
+        57,  58,  59,  60,  61,  63,  64,  65,  66,  67,  68,  70,  71,
+        72,  74,  75,  76,  77,  78,  79,  80,  81,  86,  88,  89,  91,
+        92,  93,  94,  95,  96,  97,  98,  99, 100, 102, 103, 104, 105,
+       106, 107, 108, 109, 110, 113, 114, 115, 116, 117, 118, 119, 120,
+       121, 122, 123, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134,
+       135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147,
+       148, 149, 150, 152, 153, 154, 155, 156, 157, 158, 159, 160, 162,
+       163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175,
+       176, 177, 178, 179, 181, 182, 183, 184, 186, 187, 188, 189, 190,
+       191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203,
+       205, 206, 207, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218,
+       219, 220, 221, 222, 224, 225, 226, 227, 228, 229, 230, 231, 232,
+       233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245,
+       246, 250, 251, 252, 253, 255, 256, 257, 258, 259, 260, 261, 262,
+       264, 265, 266, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277,
+       278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290,
+       291, 292, 293, 294, 295, 296, 297, 299, 301]), you can try using larger radius, giving a label for outliers, or considering removing them from your dataset.
+2024-02-12 14:37:29,574 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:37:43,613 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 14:37:53,281 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:38:10,465 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:38:22,457 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:38:33,441 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:38:44,745 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:38:55,945 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:40:05,344 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:40:19,156 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 14:40:41,611 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:40:54,091 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:41:09,419 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:41:15,211 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 14:41:15,213 — ERROR — Exception message: 
+2024-02-12 14:41:15,212 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/c2c(C)ccc(C)c2C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 14:41:15,214 — ERROR — Exception message: 
+2024-02-12 14:41:15,219 — ERROR — Failed to featurize *C(=O)O[C@H]1CC(C)(C)C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)[C@@H](OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 14:41:15,220 — ERROR — Exception message: 
+2024-02-12 14:41:15,263 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NC/C=C(/C)CO)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 14:41:15,264 — ERROR — Exception message: 
+2024-02-12 14:41:24,179 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NCC=C(C)C)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 14:41:24,179 — ERROR — Exception message: 
+2024-02-12 14:41:25,440 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:41:36,579 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:41:48,164 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:41:59,618 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:42:10,775 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 14:42:22,082 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+
+2024-02-12 15:45:12,585 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 15:45:12,585 — ERROR — Exception message: 
+2024-02-12 15:45:12,596 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/c2c(C)ccc(C)c2C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 15:45:12,597 — ERROR — Exception message: 
+2024-02-12 15:45:12,600 — ERROR — Failed to featurize *C(=O)O[C@H]1CC(C)(C)C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)[C@@H](OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 15:45:12,602 — ERROR — Exception message: 
+2024-02-12 15:45:12,633 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NC/C=C(/C)CO)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 15:45:12,634 — ERROR — Exception message: 
+2024-02-12 15:45:15,682 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NCC=C(C)C)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 15:45:15,683 — ERROR — Exception message: 
+No neighbors found for test samples array([  0,   1,   2,   3,   4,   6,   7,   8,   9,  10,  11,  12,  13,
+        15,  16,  17,  18,  19,  22,  23,  24,  25,  26,  27,  28,  30,
+        31,  32,  33,  34,  35,  36,  37,  38,  39,  40,  41,  42,  43,
+        44,  45,  46,  47,  48,  49,  50,  51,  52,  53,  54,  55,  56,
+        57,  58,  59,  60,  61,  63,  64,  65,  66,  67,  68,  69,  70,
+        71,  72,  74,  75,  76,  77,  78,  79,  80,  81,  86,  88,  89,
+        91,  92,  93,  94,  95,  96,  97,  98,  99, 100, 102, 103, 104,
+       105, 106, 107, 108, 109, 110, 113, 114, 115, 116, 117, 118, 119,
+       120, 121, 122, 123, 125, 126, 127, 128, 129, 130, 131, 132, 133,
+       134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146,
+       147, 148, 149, 152, 153, 154, 155, 156, 157, 158, 159, 160, 162,
+       163, 165, 166, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177,
+       178, 179, 180, 181, 182, 183, 184, 186, 187, 188, 189, 190, 191,
+       192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 205,
+       206, 207, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219,
+       222, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235,
+       236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 249, 250,
+       251, 252, 253, 255, 256, 257, 258, 259, 260, 261, 262, 264, 265,
+       266, 268, 269, 270, 272, 273, 274, 275, 276, 277, 278, 279, 280,
+       281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293,
+       294, 295, 296, 297, 298, 299, 301]), you can try using larger radius, giving a label for outliers, or considering removing them from your dataset.
+2024-02-12 15:48:38,810 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 15:49:21,431 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 15:49:32,871 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 15:49:44,313 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 15:49:55,840 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 15:50:07,371 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 15:50:20,182 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 15:50:25,688 — ERROR — Failed to featurize *C(=O)OCC1OC(OC(C)(C)CCCC(C)=CC=CC(C)=CC=CC(C)=CC=CC=C(C)C=CC=C(C)C=Cc2c(C)ccc(C)c2C)C(O)C(O)C1O. Appending empty array
+2024-02-12 15:50:25,690 — ERROR — Exception message: 
+2024-02-12 15:50:25,692 — ERROR — Failed to featurize *C(=O)OCC1OC(OC(C)(C)CCCC(C)=CC=CC(C)=CC=CC(C)=CC=CC=C(C)C=CC=C(C)C=CC2=C(C)CCCC2(C)C)C(O)C(O)C1O. Appending empty array
+2024-02-12 15:50:25,694 — ERROR — Exception message: 
+2024-02-12 15:50:25,701 — ERROR — Failed to featurize *C(=O)OC1CC(C)(C)C(C=CC(C)=CC=CC(C)=CC=CC=C(C)C=CC=C(C)C=CC2=C(C)C(=O)C(OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 15:50:25,703 — ERROR — Exception message: 
+2024-02-12 15:50:25,743 — ERROR — Failed to featurize *C1OC(COP(=O)(O)OC2C(COP(=O)(O)OC3C(COP(=O)(O)O)OC(*)C3O)OC(n3cnc4c(NCC=C(C)CO)ncnc43)C2O)C(O)C1O. Appending empty array
+2024-02-12 15:50:25,744 — ERROR — Exception message: 
+2024-02-12 15:50:31,594 — ERROR — Failed to featurize *C1OC(COP(=O)(O)OC2C(COP(=O)(O)OC3C(COP(=O)(O)O)OC(*)C3O)OC(n3cnc4c(NCC=C(C)C)ncnc43)C2O)C(O)C1O. Appending empty array
+2024-02-12 15:50:31,595 — ERROR — Exception message: 
+2024-02-12 15:50:32,792 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 15:50:44,365 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 15:50:56,329 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+
+2024-02-12 16:51:22,274 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 16:51:35,922 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 16:51:49,636 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 16:52:10,746 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 16:52:24,259 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 16:52:43,817 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 16:53:16,910 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 16:53:30,374 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 16:53:43,567 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 16:53:57,287 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 16:54:27,981 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 16:55:21,731 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 16:55:36,206 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 16:55:49,903 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 16:56:04,093 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 16:56:22,918 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 16:56:46,047 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/c2c(C)ccc(C)c2C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 16:56:46,049 — ERROR — Exception message: 
+2024-02-12 16:56:46,051 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 16:56:46,052 — ERROR — Exception message: 
+2024-02-12 16:56:46,069 — ERROR — Failed to featurize *C(=O)O[C@H]1CC(C)(C)C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)[C@@H](OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 16:56:46,069 — ERROR — Exception message: 
+2024-02-12 16:56:46,081 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NC/C=C(/C)CO)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 16:56:46,081 — ERROR — Exception message: 
+2024-02-12 16:56:49,754 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NCC=C(C)C)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 16:56:49,755 — ERROR — Exception message: 
+2024-02-12 16:57:01,527 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 16:57:55,981 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 16:58:24,677 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:00:53,435 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:01:06,386 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:01:21,221 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:01:34,326 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:01:47,658 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:02:14,938 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:02:42,750 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:02:55,760 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:03:10,305 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:03:23,961 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:03:37,733 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:04:04,743 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:04:41,902 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:04:57,747 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:05:10,604 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:05:24,037 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:05:36,618 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:05:56,778 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 17:06:12,721 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 17:06:12,722 — ERROR — Exception message: 
+2024-02-12 17:06:12,728 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/c2c(C)ccc(C)c2C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 17:06:12,729 — ERROR — Exception message: 
+2024-02-12 17:06:12,740 — ERROR — Failed to featurize *C(=O)O[C@H]1CC(C)(C)C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)[C@@H](OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 17:06:12,741 — ERROR — Exception message: 
+2024-02-12 17:06:12,791 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NC/C=C(/C)CO)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 17:06:12,792 — ERROR — Exception message: 
+2024-02-12 17:06:20,066 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NCC=C(C)C)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 17:06:20,067 — ERROR — Exception message: 
+2024-02-12 17:06:21,333 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:06:42,549 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:06:55,498 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 17:07:09,366 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 17:07:23,527 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 17:07:52,140 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:08:05,847 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 17:08:27,031 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 17:08:48,282 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:09:02,785 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:09:16,300 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:09:29,769 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:09:43,880 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:11:41,523 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:12:01,786 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:12:22,733 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:12:36,222 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:12:49,684 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:13:02,626 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:13:16,728 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:13:54,669 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:14:15,826 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:14:29,429 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:14:47,221 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:15:00,921 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:15:14,917 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:15:35,879 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:16:03,263 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:16:22,837 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 17:16:56,539 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:17:13,513 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 17:17:13,514 — ERROR — Exception message: 
+2024-02-12 17:17:13,514 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/c2c(C)ccc(C)c2C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 17:17:13,516 — ERROR — Exception message: 
+2024-02-12 17:17:13,521 — ERROR — Failed to featurize *C(=O)O[C@H]1CC(C)(C)C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)[C@@H](OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 17:17:13,522 — ERROR — Exception message: 
+2024-02-12 17:17:13,558 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NC/C=C(/C)CO)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 17:17:13,558 — ERROR — Exception message: 
+2024-02-12 17:17:16,874 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NCC=C(C)C)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 17:17:16,874 — ERROR — Exception message: 
+2024-02-12 17:17:25,354 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:17:52,770 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+No neighbors found for test samples array([ 30,  34,  54,  81, 104, 115, 116, 117, 118, 120, 182, 188, 202,
+       205, 206, 211, 212, 213, 237, 272, 279, 287, 292]), you can try using larger radius, giving a label for outliers, or considering removing them from your dataset.
+2024-02-12 17:18:22,590 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:18:43,983 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:18:58,359 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 17:19:26,372 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:19:48,242 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:20:13,547 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:20:36,632 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:20:59,577 — INFO — Standardizer CustomStandardizer initialized with -1 jobs.
+2024-02-12 17:25:00,406 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 17:25:00,407 — ERROR — Exception message: 
+2024-02-12 17:25:00,414 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/c2c(C)ccc(C)c2C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 17:25:00,415 — ERROR — Exception message: 
+2024-02-12 17:25:00,438 — ERROR — Failed to featurize *C(=O)O[C@H]1CC(C)(C)C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)[C@@H](OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 17:25:00,440 — ERROR — Exception message: 
+2024-02-12 17:25:00,462 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NC/C=C(/C)CO)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 17:25:00,462 — ERROR — Exception message: 
+2024-02-12 17:25:04,425 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NCC=C(C)C)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 17:25:04,425 — ERROR — Exception message: 
+2024-02-12 17:31:53,161 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 17:31:53,162 — ERROR — Exception message: 
+2024-02-12 17:31:53,162 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/c2c(C)ccc(C)c2C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 17:31:53,166 — ERROR — Exception message: 
+2024-02-12 17:31:53,172 — ERROR — Failed to featurize *C(=O)O[C@H]1CC(C)(C)C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)[C@@H](OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 17:31:53,173 — ERROR — Exception message: 
+2024-02-12 17:31:53,196 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NC/C=C(/C)CO)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 17:31:53,196 — ERROR — Exception message: 
+No feature in X meets the variance threshold 0.05505
+2024-02-12 17:36:02,380 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/c2c(C)ccc(C)c2C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 17:36:02,381 — ERROR — Exception message: 
+2024-02-12 17:36:02,391 — ERROR — Failed to featurize *C(=O)O[C@H]1CC(C)(C)C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)[C@@H](OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 17:36:02,392 — ERROR — Exception message: 
+2024-02-12 17:36:02,400 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 17:36:02,401 — ERROR — Exception message: 
+2024-02-12 17:36:02,459 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NC/C=C(/C)CO)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 17:36:02,460 — ERROR — Exception message: 
+2024-02-12 17:36:06,007 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NCC=C(C)C)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 17:36:06,008 — ERROR — Exception message: 
+2024-02-12 17:40:32,342 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 17:40:32,343 — ERROR — Exception message: 
+2024-02-12 17:40:32,350 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/c2c(C)ccc(C)c2C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 17:40:32,351 — ERROR — Exception message: 
+2024-02-12 17:40:32,357 — ERROR — Failed to featurize *C(=O)O[C@H]1CC(C)(C)C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)[C@@H](OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 17:40:32,358 — ERROR — Exception message: 
+2024-02-12 17:40:32,390 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NC/C=C(/C)CO)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 17:40:32,391 — ERROR — Exception message: 
+2024-02-12 17:40:35,982 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NCC=C(C)C)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 17:40:35,983 — ERROR — Exception message: 
+
+No neighbors found for test samples array([  0,   1,   2,   3,   4,   8,   9,  10,  12,  17,  18,  19,  22,
+        25,  26,  27,  30,  31,  33,  34,  35,  37,  39,  40,  41,  42,
+        43,  44,  45,  46,  50,  51,  52,  53,  54,  59,  60,  61,  64,
+        65,  66,  67,  68,  71,  72,  74,  76,  77,  79,  81,  93,  94,
+        95,  96,  97,  98,  99, 102, 103, 104, 113, 114, 115, 116, 117,
+       118, 120, 121, 122, 123, 125, 129, 130, 131, 132, 133, 134, 135,
+       136, 173, 174, 175, 179, 181, 182, 184, 186, 188, 189, 191, 192,
+       193, 194, 195, 196, 198, 199, 200, 201, 202, 203, 205, 206, 207,
+       209, 211, 212, 213, 214, 215, 216, 217, 222, 224, 225, 226, 227,
+       228, 230, 231, 232, 233, 234, 235, 237, 240, 241, 242, 243, 244,
+       245, 250, 253, 258, 261, 262, 265, 266, 268, 269, 270, 272, 273,
+       274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 285, 286, 287,
+       289, 290, 291, 292, 293, 294]), you can try using larger radius, giving a label for outliers, or considering removing them from your dataset.
+2024-02-12 18:44:00,785 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+2024-02-12 18:46:05,206 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 18:46:11,526 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/c2c(C)ccc(C)c2C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 18:46:11,527 — ERROR — Exception message: 
+2024-02-12 18:46:11,530 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 18:46:11,530 — ERROR — Exception message: 
+2024-02-12 18:46:11,534 — ERROR — Failed to featurize *C(=O)O[C@H]1CC(C)(C)C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)[C@@H](OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 18:46:11,534 — ERROR — Exception message: 
+2024-02-12 18:46:11,560 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NC/C=C(/C)CO)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 18:46:11,561 — ERROR — Exception message: 
+2024-02-12 18:46:19,071 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NCC=C(C)C)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 18:46:19,072 — ERROR — Exception message: 
+
+2024-02-12 19:48:31,031 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 19:48:59,399 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+No neighbors found for test samples array([ 70, 157, 160, 161]), you can try using larger radius, giving a label for outliers, or considering removing them from your dataset.
+2024-02-12 19:51:08,769 — ERROR — Failed to featurize *C(=O)O[C@H]1CC(C)(C)C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)[C@@H](OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 19:51:08,770 — ERROR — Exception message: 
+2024-02-12 19:51:08,774 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/c2c(C)ccc(C)c2C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 19:51:08,776 — ERROR — Exception message: 
+2024-02-12 19:51:08,780 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 19:51:08,781 — ERROR — Exception message: 
+2024-02-12 19:51:08,822 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NC/C=C(/C)CO)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 19:51:08,823 — ERROR — Exception message: 
+2024-02-12 19:51:12,482 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NCC=C(C)C)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 19:51:12,482 — ERROR — Exception message: 
+2024-02-12 19:52:23,322 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 19:52:45,790 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
+No neighbors found for test samples array([ 70,  81, 119, 125, 157, 159, 160, 161, 165, 168, 219]), you can try using larger radius, giving a label for outliers, or considering removing them from your dataset.
+2024-02-12 19:56:02,862 — INFO — Standardizer ChEMBLStandardizer initialized with -1 jobs.
+2024-02-12 19:56:09,341 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/c2c(C)ccc(C)c2C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 19:56:09,342 — ERROR — Exception message: 
+2024-02-12 19:56:09,350 — ERROR — Failed to featurize *C(=O)OC[C@H]1O[C@@H](OC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)[C@H](O)[C@@H](O)[C@@H]1O. Appending empty array
+2024-02-12 19:56:09,351 — ERROR — Exception message: 
+2024-02-12 19:56:09,353 — ERROR — Failed to featurize *C(=O)O[C@H]1CC(C)(C)C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)[C@@H](OC(*)=O)CC2(C)C)=C(C)C1=O. Appending empty array
+2024-02-12 19:56:09,354 — ERROR — Exception message: 
+2024-02-12 19:56:09,395 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NC/C=C(/C)CO)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 19:56:09,396 — ERROR — Exception message: 
+2024-02-12 19:56:16,283 — ERROR — Failed to featurize *[C@@H]1O[C@H](COP(=O)(O)O[C@H]2[C@@H](O)[C@H](n3cnc4c(NCC=C(C)C)ncnc43)O[C@@H]2COP(=O)(O)O[C@H]2[C@@H](O)[C@H](*)O[C@@H]2COP(=O)(O)O)[C@@H](O)[C@H]1O. Appending empty array
+2024-02-12 19:56:16,284 — ERROR — Exception message: 
+2024-02-12 19:56:32,543 — INFO — Standardizer BasicStandardizer initialized with -1 jobs.
