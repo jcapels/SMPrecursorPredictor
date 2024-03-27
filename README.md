@@ -11,7 +11,6 @@ A ML pipeline for the prediction of specialised metabolites starting substances.
     - [Data](#data)
     - [AutoML](#automl)
     - [Analysis of the results](#analysis-of-the-results)
-- [License](#licensing)
 
 ## Installation
 
