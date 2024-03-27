@@ -1,0 +1,6 @@
+Pipeline 1,Pipeline 2,Differences (F1 score)
+Layered FP + Low Variance FS + Ridge Classifier,Layered FP + Ridge Classifier,*
+Layered FP + Low Variance FS + Ridge Classifier,MGCNN (Eguchi et al. 2019),****
+Layered FP + Ridge Classifier,Morgan FP + Ridge Classifier,*
+Layered FP + Ridge Classifier,MGCNN (Eguchi et al. 2019),****
+Morgan FP + Ridge Classifier,MGCNN (Eguchi et al. 2019),***

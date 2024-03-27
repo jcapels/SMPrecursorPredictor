@@ -1,0 +1,30 @@
+2024-03-10 11:44:27,461 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 11:44:27,512 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 11:44:27,540 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 11:44:27,542 — ERROR — Features are not the same length/type... Recalculate features for all inputs!
+2024-03-10 11:44:27,543 — ERROR — Features are not the same length/type... Recalculate features for all inputs!
+2024-03-10 11:54:27,143 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 11:54:27,194 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 11:54:27,220 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 11:54:27,223 — ERROR — Features are not the same length/type... Recalculate features for all inputs!
+2024-03-10 11:54:27,224 — ERROR — Features are not the same length/type... Recalculate features for all inputs!
+2024-03-10 12:11:38,999 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 12:11:39,047 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 12:11:39,073 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 12:11:39,076 — ERROR — Features are not the same length/type... Recalculate features for all inputs!
+2024-03-10 12:11:39,077 — ERROR — Features are not the same length/type... Recalculate features for all inputs!
+2024-03-10 12:11:53,371 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 12:11:53,423 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 12:11:53,448 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 12:11:53,451 — ERROR — Features are not the same length/type... Recalculate features for all inputs!
+2024-03-10 12:11:53,452 — ERROR — Features are not the same length/type... Recalculate features for all inputs!
+2024-03-10 12:24:51,946 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 12:24:51,993 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 12:24:52,018 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 12:24:52,020 — ERROR — Features are not the same length/type... Recalculate features for all inputs!
+2024-03-10 12:24:52,021 — ERROR — Features are not the same length/type... Recalculate features for all inputs!
+2024-03-10 12:35:28,199 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 12:35:28,256 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 12:35:28,285 — INFO — Assuming multitask since y has more than one dimension. If otherwise, explicitly set the mode to 'classification' or 'regression'!
+2024-03-10 12:35:28,288 — ERROR — Features are not the same length/type... Recalculate features for all inputs!
+2024-03-10 12:35:28,289 — ERROR — Features are not the same length/type... Recalculate features for all inputs!

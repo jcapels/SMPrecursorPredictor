@@ -1,5 +1,5 @@
 # SMPrecursorPredictor
-A ML pipeline for the prediction of specialised metabolites precursors.
+A ML pipeline for the prediction of specialised metabolites starting substances.
 
 ### Table of contents:
 
@@ -8,7 +8,9 @@ A ML pipeline for the prediction of specialised metabolites precursors.
     - [Pypi](#pypi)
 - [Making predictions](#making-predictions)
 - [Methods](#methods)
-    - [Problem setup](#problem-setup)
+    - [Data](#data)
+    - [AutoML](#automl)
+    - [Analysis of the results](#analysis-of-the-results)
 - [License](#licensing)
 
 ## Installation
@@ -71,60 +73,69 @@ from sm_precursor_predictor import predict_from_csv
 predictions = predict_from_csv("path_to_csv", 
                                smiles_field="SMILES", 
                                ids_field="ID")
-predictions.to_csv("path_to_save_predictions_csv")
+predictions.to_csv("path_to_save_predictions.csv")
 ```
+
+## Making and explaining predictions
+
+This is only possible with one model: *Morgan FP + Ridge Classifier*.
+
+Example with linalool:
+
+```python
+from sm_precursor_predictor import get_prediction_and_explanation
+
+prediction, images, plots = get_prediction_and_explanation(smiles="CC(=CCCC(C)(C=C)O)C", threshold=0.20)
+```
+![feature_importance](feature_importance.png)
+
+```
+prediction
+```
+
+
+```
+['Geranyl diphosphate']
+```
+
+```
+images[0]
+```
+![Linalool](molecule_Geranyl_diphosphate.png)
+
+
 
 ## Methods
 
-### Problem setup
+### Data
 
-Data integration:
-- Alkaloids: from Eguchi et al 2019;
-- Terpenoids, phenols and gluconates: curated data from KEGG
+The final dataset can be found in **[final_dataset.csv]**(models_and_datasets/final_dataset/final_dataset.csv). The LotusDB compounds predictions can be found at **[predictions]**(models_and_datasets/predictions_lotusdb/LOTUSDB_predictions_plants.csv).
 
-Multi-label classification problem: 
+The exploration of the dataset can be found at **[dataset_analysis.ipynb]**(models_and_datasets/analysis/dataset_analysis.ipynb).
 
-![molecular_starters.png](imgs/molecular_starters.png)
+### AutoML 
 
-### Data integration results
+The AutoML was run using docker. To run using docker you must consider the following files:
 
-![data_integration.png](imgs/data_integration.png)
+- **[Dockerfile](models_and_datasets/analysis/results_for_new_dataset/Dockerfile)**
+- **[run.sh](models_and_datasets/analysis/results_for_new_dataset/run.sh)**
 
-### Splitted dataset
+Alternatively, if you're rather interested in running the AutoML with a python script, consider the following:
 
-![split_results_2.png](imgs%2Fsplit_results_2.png)
+- **[train_models.py](models_and_datasets/analysis/results_for_new_dataset/train_models.py)**
 
-![split_results.png](imgs%2Fsplit_results.png)
+### Analysis of the results
 
-### Model results
+For the analysis of the results refer to the following files:
 
-With a few lines of code we tested:
+- **[Main results](models_and_datasets/analysis/results_for_new_dataset/results_analysis.ipynb)**
+- **[Alkaloids dataset - Eguchi et al. 2019](models_and_datasets/analysis/results_for_alkaloids_dataset/pipeline_for_alkaloids_data.ipynb)**
+- **[Challenging datasets](models_and_datasets/analysis/results_for_challenging_datasets/assess_for_challenging_datasets.ipynb)**
+- For checking the model interpretability - **[Monoterpenoid indole alkaloids](models_and_datasets/analysis/results_for_challenging_compounds/alkaloids_derived_from_tryptophan.ipynb)** and **[others](models_and_datasets/analysis/case_studies/predict_for_case_studies.ipynb)**.
 
-- 5 molecular fingerprints alone and combinations;
-- 3 different standardization methods
-- 7 models from sklearn for multilabel classification.
-- 6 different optimization methods: an evolutionary algorithm, MOTPE, random search, TPE, CMAES and quasi monte carlo;
-- 
-In total, we tested 3000 combinations, 500 for each method of optimization;
 
-![models_results.png](imgs%2Fmodels_results.png)
 
-### Best trials stats - best fingerprints
 
-![best_fingerprints.png](imgs%2Fbest_fingerprints.png)
-
-### Best trials stats - best models
-
-![best_models.png](imgs%2Fbest_models.png)
-
-### Best pipelines
-
-- Standardizer: ChEMBLStandardizer
-- Fingerprints: 
-- - Layered fingerprints (size: 2048, minimum path: 3, maximum path: 8)
-- - AtomPair fingerprints (size: 2048, minimum length: 2, maximum length: 40, does not include information on chirality)
-- Model: 
-- - RidgeClassifier(alpha=7.338782054460601, fit_intercept=False,solver='sparse_cg')
 
 
 

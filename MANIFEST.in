@@ -1,2 +1,2 @@
-recursive-include src/sm_precursor_predictor/prediction/sm_predictor_pipeline_motpe *
-recursive-include src/sm_precursor_predictor/prediction/sm_predictor_pipeline_tpe *
+recursive-include src/sm_precursor_predictor/prediction/ridge_classifier_layered_fingerprints_variance_selector *
+recursive-include src/sm_precursor_predictor/prediction/ridge_classifier_morgan_fp *

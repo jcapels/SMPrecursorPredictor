@@ -1,0 +1,1 @@
+{"0": {"name": "morgan fingerprints", "type": "transformer", "is_fitted": true, "path": "morgan fingerprints.pkl"}, "1": {"name": "random forest", "type": "predictor", "model_type": "sklearn", "is_fitted": true, "path": "model"}}
