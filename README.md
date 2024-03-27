@@ -73,8 +73,37 @@ from sm_precursor_predictor import predict_from_csv
 predictions = predict_from_csv("path_to_csv", 
                                smiles_field="SMILES", 
                                ids_field="ID")
-predictions.to_csv("path_to_save_predictions_csv")
+predictions.to_csv("path_to_save_predictions.csv")
 ```
+
+## Making and explaining predictions
+
+This is only possible with one model: *Morgan FP + Ridge Classifier*.
+
+Example with linalool:
+
+```python
+from sm_precursor_predictor import get_prediction_and_explanation
+
+prediction, images, plots = get_prediction_and_explanation(smiles="CC(=CCCC(C)(C=C)O)C", threshold=0.20)
+```
+![feature_importance](feature_importance.png)
+
+```
+prediction
+```
+
+
+```
+['Geranyl diphosphate']
+```
+
+```
+images[0]
+```
+![Linalool](molecule_Geranyl_diphosphate.png)
+
+
 
 ## Methods
 

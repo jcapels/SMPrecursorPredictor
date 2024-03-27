@@ -112,8 +112,12 @@ def draw_feature_importance_plot(coefs, on_bits, title="", threshold=0.15):
         if coef >= threshold or coef <= -threshold or i in on_bits:
             bits.append("bit_{}".format(i))
             coefs_to_plot.append(coef)
-    figure = plt.figure(figsize=(5, 5))
-    bar_plot = sns.barplot(x=coefs_to_plot, y=bits, orient='h')
+    
+    if len(coefs_to_plot) > 10:
+        figure = plt.figure(figsize=(5, 10))
+    else:
+        figure = plt.figure(figsize=(5, 5))
+    sns.barplot(x=coefs_to_plot, y=bits, orient='h')
     plt.xticks(rotation=90)
     # paint bars above 0 with green and below 0 with red
     for i, coef in enumerate(coefs_to_plot):
@@ -126,8 +130,8 @@ def draw_feature_importance_plot(coefs, on_bits, title="", threshold=0.15):
     
     plt.title(f"Precursor: {title}", pad =20, fontsize=15)
     plt.xlabel('Ridge classifier coefficient', fontsize=15)
-    plt.yticks(fontsize=12)
-    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=8)
+    plt.xticks(fontsize=8)
     return figure
 
 from PIL import Image
@@ -184,17 +188,19 @@ def predict_from_dataset(dataset, model):
                                        model)
     best_pipeline = Pipeline.load(pretrain_model_path)
 
+    if dataset.mols.shape[0] == 0:
+        raise ValueError("No molecules found in the dataset. The one provided is not valid.")
     predictions = best_pipeline.predict(dataset)
     predictions = convert_predictions_into_names_model(predictions)
 
     return predictions
 
-def get_prediction_and_explanation(smiles):
+def get_prediction_and_explanation(smiles, threshold=0.15, molecule_name=""):
     dataset = SmilesDataset(smiles=[smiles])
     model="Morgan FP + Ridge Classifier"
     predictions = predict_from_dataset(dataset, model)
 
-    images, plots = draw_important_bits(smiles, predictions[0])
+    images, plots = draw_important_bits(smiles, predictions[0], threshold=threshold, molecule_name="")
 
     return predictions, images, plots
 
