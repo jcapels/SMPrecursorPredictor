@@ -1,18 +1,6 @@
 # SMPrecursorPredictor
 A ML pipeline for the prediction of specialised metabolites starting substances.
 
-### Table of contents:
-
-- [Installation](#installation)
-    - [Manually](#Manually)
-    - [Pypi](#pypi)
-- [Making predictions](#making-predictions)
-- [Methods](#methods)
-    - [Data](#data)
-    - [AutoML](#automl)
-    - [Analysis of the results](#analysis-of-the-results)
-- [License](#licensing)
-
 ## Installation
 
 ### Manually
@@ -55,12 +43,18 @@ pip install SMPrecursorPrediction
 
 ## Making predictions
 
+Models available: 
+
+- Layered FP + Low Variance FS + Ridge Classifier
+- Morgan FP + Ridge Classifier
+
 ```python
 from sm_precursor_predictor import predict_precursors
 precursors = predict_precursors(
             ["[H][C@]89CN(CCc1c([nH]c2ccccc12)[C@@](C(=O)OC)(c3cc4c(cc3OC)N(C)[C@@]5([H])[C@@]"
              "(O)(C(=O)OC)[C@H](OC(C)=O)[C@]7(CC)C=CCN6CC[C@]45[C@@]67[H])C8)C[C@](O)(CC)C9",
-             "COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O[C@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)O"])
+             "COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O[C@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)O"],
+             model="Layered FP + Low Variance FS + Ridge Classifier")
 print(precursors)
 ```
 
@@ -72,7 +66,8 @@ read a csv file with a column of SMILES and a column of IDs and save the predict
 from sm_precursor_predictor import predict_from_csv
 predictions = predict_from_csv("path_to_csv", 
                                smiles_field="SMILES", 
-                               ids_field="ID")
+                               ids_field="ID",
+                               model="Layered FP + Low Variance FS + Ridge Classifier")
 predictions.to_csv("path_to_save_predictions.csv")
 ```
 
