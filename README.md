@@ -116,7 +116,7 @@ images[0]
 
 ### Data
 
-The final dataset can be found in **[final_dataset.csv](models_and_datasets/final_dataset/final_dataset.csv)**. The LotusDB compounds predictions can be found at **[predictions](models_and_datasets/predictions_lotusdb/LOTUSDB_predictions_plants.csv)**.
+The final dataset can be found in **[final_dataset.csv](models_and_datasets/final_dataset/final_dataset_top_v2.csv)**. The LotusDB compounds predictions can be found at **[predictions](models_and_datasets/analysis/predictions_lotusdb/LOTUSDB_predictions_plants.csv)**.
 
 The exploration of the dataset can be found at **[dataset_analysis.ipynb](models_and_datasets/analysis/dataset_analysis.ipynb)**.
 
