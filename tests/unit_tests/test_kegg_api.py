@@ -9,7 +9,7 @@ class TestKeggApi(TestCase):
 
     def test_get_list(self):
         list_of_pathways = KeggApi.get_list("pathway")
-        self.assertEqual(list_of_pathways.shape, (570, 2))
+        self.assertEqual(list_of_pathways.shape, (571, 2))
 
     def test_get_info(self):
         list_of_pathways = KeggApi.get_list("brite")
