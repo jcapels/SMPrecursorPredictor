@@ -1,0 +1,451 @@
+model name,f1_score,precision_score,recall_score,subject
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_0
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_1
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_2
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_3
+Layered FP + Ridge Classifier,0.9333333333333333,0.875,1.0,cv_0_task_4
+Layered FP + Ridge Classifier,0.8,0.6666666666666666,1.0,cv_0_task_5
+Layered FP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_0_task_6
+Layered FP + Ridge Classifier,0.8571428571428571,1.0,0.75,cv_0_task_7
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_8
+Layered FP + Ridge Classifier,0.8695652173913043,0.9090909090909091,0.8333333333333334,cv_0_task_9
+Layered FP + Ridge Classifier,0.4,0.3333333333333333,0.5,cv_0_task_10
+Layered FP + Ridge Classifier,0.962962962962963,0.9285714285714286,1.0,cv_0_task_11
+Layered FP + Ridge Classifier,0.9782608695652174,0.9574468085106383,1.0,cv_0_task_12
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_13
+Layered FP + Ridge Classifier,0.972972972972973,1.0,0.9473684210526315,cv_0_task_14
+Layered FP + Ridge Classifier,0.9090909090909091,1.0,0.8333333333333334,cv_1_task_0
+Layered FP + Ridge Classifier,0.888888888888889,0.8,1.0,cv_1_task_1
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_1_task_2
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_1_task_3
+Layered FP + Ridge Classifier,0.8,0.6666666666666666,1.0,cv_1_task_4
+Layered FP + Ridge Classifier,0.875,0.875,0.875,cv_1_task_5
+Layered FP + Ridge Classifier,0.6666666666666666,1.0,0.5,cv_1_task_6
+Layered FP + Ridge Classifier,0.7499999999999999,1.0,0.6,cv_1_task_7
+Layered FP + Ridge Classifier,0.888888888888889,1.0,0.8,cv_1_task_8
+Layered FP + Ridge Classifier,0.9,0.9,0.9,cv_1_task_9
+Layered FP + Ridge Classifier,0.4,1.0,0.25,cv_1_task_10
+Layered FP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_1_task_11
+Layered FP + Ridge Classifier,0.9743589743589743,0.9743589743589743,0.9743589743589743,cv_1_task_12
+Layered FP + Ridge Classifier,0.9846153846153847,0.9696969696969697,1.0,cv_1_task_13
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_1_task_14
+Layered FP + Ridge Classifier,0.9333333333333333,1.0,0.875,cv_2_task_0
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_2_task_1
+Layered FP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_2_task_2
+Layered FP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_2_task_3
+Layered FP + Ridge Classifier,0.8,1.0,0.6666666666666666,cv_2_task_4
+Layered FP + Ridge Classifier,0.3333333333333333,0.3333333333333333,0.3333333333333333,cv_2_task_5
+Layered FP + Ridge Classifier,0.8,0.7692307692307693,0.8333333333333334,cv_2_task_6
+Layered FP + Ridge Classifier,0.7777777777777778,1.0,0.6363636363636364,cv_2_task_7
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_2_task_8
+Layered FP + Ridge Classifier,0.761904761904762,0.8,0.7272727272727273,cv_2_task_9
+Layered FP + Ridge Classifier,0.888888888888889,1.0,0.8,cv_2_task_10
+Layered FP + Ridge Classifier,0.888888888888889,0.8,1.0,cv_2_task_11
+Layered FP + Ridge Classifier,0.9599999999999999,0.972972972972973,0.9473684210526315,cv_2_task_12
+Layered FP + Ridge Classifier,0.9696969696969697,0.9696969696969697,0.9696969696969697,cv_2_task_13
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_2_task_14
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_0
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_1
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_2
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_3
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_4
+Layered FP + Ridge Classifier,0.7272727272727272,0.8,0.6666666666666666,cv_3_task_5
+Layered FP + Ridge Classifier,0.888888888888889,1.0,0.8,cv_3_task_6
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_7
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_8
+Layered FP + Ridge Classifier,0.7272727272727272,0.8,0.6666666666666666,cv_3_task_9
+Layered FP + Ridge Classifier,0.8,1.0,0.6666666666666666,cv_3_task_10
+Layered FP + Ridge Classifier,0.9230769230769231,0.9473684210526315,0.9,cv_3_task_11
+Layered FP + Ridge Classifier,0.968421052631579,0.9583333333333334,0.9787234042553191,cv_3_task_12
+Layered FP + Ridge Classifier,0.983050847457627,0.9666666666666667,1.0,cv_3_task_13
+Layered FP + Ridge Classifier,0.9714285714285714,1.0,0.9444444444444444,cv_3_task_14
+Layered FP + Ridge Classifier,0.9523809523809523,0.9090909090909091,1.0,cv_4_task_0
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_4_task_1
+Layered FP + Ridge Classifier,0.9090909090909091,1.0,0.8333333333333334,cv_4_task_2
+Layered FP + Ridge Classifier,0.9090909090909091,1.0,0.8333333333333334,cv_4_task_3
+Layered FP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_4_task_4
+Layered FP + Ridge Classifier,0.7499999999999999,1.0,0.6,cv_4_task_5
+Layered FP + Ridge Classifier,0.888888888888889,1.0,0.8,cv_4_task_6
+Layered FP + Ridge Classifier,0.8,1.0,0.6666666666666666,cv_4_task_7
+Layered FP + Ridge Classifier,1.0,1.0,1.0,cv_4_task_8
+Layered FP + Ridge Classifier,0.896551724137931,0.8666666666666667,0.9285714285714286,cv_4_task_9
+Layered FP + Ridge Classifier,0.6,0.6,0.6,cv_4_task_10
+Layered FP + Ridge Classifier,0.888888888888889,1.0,0.8,cv_4_task_11
+Layered FP + Ridge Classifier,0.9473684210526315,0.9473684210526315,0.9473684210526315,cv_4_task_12
+Layered FP + Ridge Classifier,0.9876543209876543,1.0,0.975609756097561,cv_4_task_13
+Layered FP + Ridge Classifier,0.9743589743589743,1.0,0.95,cv_4_task_14
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_0
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_1
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_2
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_3
+NPClassifierFP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_0_task_4
+NPClassifierFP + Ridge Classifier,0.5714285714285715,0.4,1.0,cv_0_task_5
+NPClassifierFP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_0_task_6
+NPClassifierFP + Ridge Classifier,0.8571428571428571,1.0,0.75,cv_0_task_7
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_8
+NPClassifierFP + Ridge Classifier,0.8571428571428571,1.0,0.75,cv_0_task_9
+NPClassifierFP + Ridge Classifier,0.5,0.5,0.5,cv_0_task_10
+NPClassifierFP + Ridge Classifier,0.9230769230769231,0.9230769230769231,0.9230769230769231,cv_0_task_11
+NPClassifierFP + Ridge Classifier,0.9545454545454545,0.9767441860465116,0.9333333333333333,cv_0_task_12
+NPClassifierFP + Ridge Classifier,0.9863013698630138,1.0,0.972972972972973,cv_0_task_13
+NPClassifierFP + Ridge Classifier,0.9444444444444444,1.0,0.8947368421052632,cv_0_task_14
+NPClassifierFP + Ridge Classifier,0.9411764705882353,1.0,0.8888888888888888,cv_1_task_0
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_1_task_1
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_1_task_2
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_1_task_3
+NPClassifierFP + Ridge Classifier,0.6666666666666666,1.0,0.5,cv_1_task_4
+NPClassifierFP + Ridge Classifier,0.7999999999999999,0.8571428571428571,0.75,cv_1_task_5
+NPClassifierFP + Ridge Classifier,0.6153846153846154,0.8,0.5,cv_1_task_6
+NPClassifierFP + Ridge Classifier,0.5714285714285715,1.0,0.4,cv_1_task_7
+NPClassifierFP + Ridge Classifier,0.888888888888889,1.0,0.8,cv_1_task_8
+NPClassifierFP + Ridge Classifier,0.9,0.9,0.9,cv_1_task_9
+NPClassifierFP + Ridge Classifier,0.6666666666666666,1.0,0.5,cv_1_task_10
+NPClassifierFP + Ridge Classifier,0.888888888888889,0.9230769230769231,0.8571428571428571,cv_1_task_11
+NPClassifierFP + Ridge Classifier,0.975,0.9512195121951219,1.0,cv_1_task_12
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_1_task_13
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_1_task_14
+NPClassifierFP + Ridge Classifier,0.9333333333333333,1.0,0.875,cv_2_task_0
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_2_task_1
+NPClassifierFP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_2_task_2
+NPClassifierFP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_2_task_3
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_2_task_4
+NPClassifierFP + Ridge Classifier,0.3333333333333333,0.3333333333333333,0.3333333333333333,cv_2_task_5
+NPClassifierFP + Ridge Classifier,0.8,1.0,0.6666666666666666,cv_2_task_6
+NPClassifierFP + Ridge Classifier,0.7058823529411764,1.0,0.5454545454545454,cv_2_task_7
+NPClassifierFP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_2_task_8
+NPClassifierFP + Ridge Classifier,0.8181818181818182,0.8181818181818182,0.8181818181818182,cv_2_task_9
+NPClassifierFP + Ridge Classifier,0.33333333333333337,1.0,0.2,cv_2_task_10
+NPClassifierFP + Ridge Classifier,0.875,0.875,0.875,cv_2_task_11
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_2_task_12
+NPClassifierFP + Ridge Classifier,0.9850746268656716,0.9705882352941176,1.0,cv_2_task_13
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_2_task_14
+NPClassifierFP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_3_task_0
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_1
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_2
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_3
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_4
+NPClassifierFP + Ridge Classifier,0.6,0.75,0.5,cv_3_task_5
+NPClassifierFP + Ridge Classifier,0.888888888888889,1.0,0.8,cv_3_task_6
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_7
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_8
+NPClassifierFP + Ridge Classifier,0.8571428571428571,0.75,1.0,cv_3_task_9
+NPClassifierFP + Ridge Classifier,0.6666666666666666,1.0,0.5,cv_3_task_10
+NPClassifierFP + Ridge Classifier,0.9,0.9,0.9,cv_3_task_11
+NPClassifierFP + Ridge Classifier,0.9787234042553191,0.9787234042553191,0.9787234042553191,cv_3_task_12
+NPClassifierFP + Ridge Classifier,0.9655172413793104,0.9655172413793104,0.9655172413793104,cv_3_task_13
+NPClassifierFP + Ridge Classifier,0.9411764705882353,1.0,0.8888888888888888,cv_3_task_14
+NPClassifierFP + Ridge Classifier,0.8571428571428572,0.8181818181818182,0.9,cv_4_task_0
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_4_task_1
+NPClassifierFP + Ridge Classifier,0.9090909090909091,1.0,0.8333333333333334,cv_4_task_2
+NPClassifierFP + Ridge Classifier,0.9090909090909091,1.0,0.8333333333333334,cv_4_task_3
+NPClassifierFP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_4_task_4
+NPClassifierFP + Ridge Classifier,0.5714285714285715,1.0,0.4,cv_4_task_5
+NPClassifierFP + Ridge Classifier,0.6666666666666665,0.75,0.6,cv_4_task_6
+NPClassifierFP + Ridge Classifier,0.8,1.0,0.6666666666666666,cv_4_task_7
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_4_task_8
+NPClassifierFP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_4_task_9
+NPClassifierFP + Ridge Classifier,0.5714285714285715,1.0,0.4,cv_4_task_10
+NPClassifierFP + Ridge Classifier,0.7777777777777777,0.875,0.7,cv_4_task_11
+NPClassifierFP + Ridge Classifier,0.9487179487179489,0.925,0.9736842105263158,cv_4_task_12
+NPClassifierFP + Ridge Classifier,0.975609756097561,0.975609756097561,0.975609756097561,cv_4_task_13
+NPClassifierFP + Ridge Classifier,1.0,1.0,1.0,cv_4_task_14
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_0
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_1
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_2
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_3
+MHFP + Ridge Classifier,0.8571428571428571,0.8571428571428571,0.8571428571428571,cv_0_task_4
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_5
+MHFP + Ridge Classifier,0.6666666666666666,0.625,0.7142857142857143,cv_0_task_6
+MHFP + Ridge Classifier,0.5714285714285715,0.6666666666666666,0.5,cv_0_task_7
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_8
+MHFP + Ridge Classifier,0.8571428571428571,1.0,0.75,cv_0_task_9
+MHFP + Ridge Classifier,0.4,0.3333333333333333,0.5,cv_0_task_10
+MHFP + Ridge Classifier,0.8000000000000002,0.7058823529411765,0.9230769230769231,cv_0_task_11
+MHFP + Ridge Classifier,0.9555555555555556,0.9555555555555556,0.9555555555555556,cv_0_task_12
+MHFP + Ridge Classifier,0.9863013698630138,1.0,0.972972972972973,cv_0_task_13
+MHFP + Ridge Classifier,0.9444444444444444,1.0,0.8947368421052632,cv_0_task_14
+MHFP + Ridge Classifier,0.9411764705882353,1.0,0.8888888888888888,cv_1_task_0
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_1_task_1
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_1_task_2
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_1_task_3
+MHFP + Ridge Classifier,0.8,0.6666666666666666,1.0,cv_1_task_4
+MHFP + Ridge Classifier,0.7142857142857143,0.8333333333333334,0.625,cv_1_task_5
+MHFP + Ridge Classifier,0.3333333333333333,0.5,0.25,cv_1_task_6
+MHFP + Ridge Classifier,0.5714285714285715,1.0,0.4,cv_1_task_7
+MHFP + Ridge Classifier,0.888888888888889,1.0,0.8,cv_1_task_8
+MHFP + Ridge Classifier,0.5555555555555556,0.625,0.5,cv_1_task_9
+MHFP + Ridge Classifier,0.6666666666666666,1.0,0.5,cv_1_task_10
+MHFP + Ridge Classifier,0.75,0.9,0.6428571428571429,cv_1_task_11
+MHFP + Ridge Classifier,0.935064935064935,0.9473684210526315,0.9230769230769231,cv_1_task_12
+MHFP + Ridge Classifier,0.9846153846153847,0.9696969696969697,1.0,cv_1_task_13
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_1_task_14
+MHFP + Ridge Classifier,0.8571428571428571,1.0,0.75,cv_2_task_0
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_2_task_1
+MHFP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_2_task_2
+MHFP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_2_task_3
+MHFP + Ridge Classifier,0.8,1.0,0.6666666666666666,cv_2_task_4
+MHFP + Ridge Classifier,0.4,0.5,0.3333333333333333,cv_2_task_5
+MHFP + Ridge Classifier,0.6956521739130435,0.7272727272727273,0.6666666666666666,cv_2_task_6
+MHFP + Ridge Classifier,0.7058823529411764,1.0,0.5454545454545454,cv_2_task_7
+MHFP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_2_task_8
+MHFP + Ridge Classifier,0.6956521739130435,0.6666666666666666,0.7272727272727273,cv_2_task_9
+MHFP + Ridge Classifier,0.8000000000000002,0.8,0.8,cv_2_task_10
+MHFP + Ridge Classifier,0.787878787878788,0.7647058823529411,0.8125,cv_2_task_11
+MHFP + Ridge Classifier,0.9736842105263158,0.9736842105263158,0.9736842105263158,cv_2_task_12
+MHFP + Ridge Classifier,0.9850746268656716,0.9705882352941176,1.0,cv_2_task_13
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_2_task_14
+MHFP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_3_task_0
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_1
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_2
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_3
+MHFP + Ridge Classifier,0.9090909090909091,0.8333333333333334,1.0,cv_3_task_4
+MHFP + Ridge Classifier,0.4444444444444444,0.6666666666666666,0.3333333333333333,cv_3_task_5
+MHFP + Ridge Classifier,0.8421052631578948,0.8888888888888888,0.8,cv_3_task_6
+MHFP + Ridge Classifier,0.9090909090909091,0.8333333333333334,1.0,cv_3_task_7
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_8
+MHFP + Ridge Classifier,0.7142857142857143,0.625,0.8333333333333334,cv_3_task_9
+MHFP + Ridge Classifier,0.8,1.0,0.6666666666666666,cv_3_task_10
+MHFP + Ridge Classifier,0.9230769230769231,0.9473684210526315,0.9,cv_3_task_11
+MHFP + Ridge Classifier,0.989247311827957,1.0,0.9787234042553191,cv_3_task_12
+MHFP + Ridge Classifier,0.9824561403508771,1.0,0.9655172413793104,cv_3_task_13
+MHFP + Ridge Classifier,0.9411764705882353,1.0,0.8888888888888888,cv_3_task_14
+MHFP + Ridge Classifier,0.7368421052631577,0.7777777777777778,0.7,cv_4_task_0
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_4_task_1
+MHFP + Ridge Classifier,0.9090909090909091,1.0,0.8333333333333334,cv_4_task_2
+MHFP + Ridge Classifier,0.9090909090909091,1.0,0.8333333333333334,cv_4_task_3
+MHFP + Ridge Classifier,0.8333333333333333,1.0,0.7142857142857143,cv_4_task_4
+MHFP + Ridge Classifier,0.5714285714285715,1.0,0.4,cv_4_task_5
+MHFP + Ridge Classifier,0.8333333333333333,0.7142857142857143,1.0,cv_4_task_6
+MHFP + Ridge Classifier,0.8,1.0,0.6666666666666666,cv_4_task_7
+MHFP + Ridge Classifier,1.0,1.0,1.0,cv_4_task_8
+MHFP + Ridge Classifier,0.888888888888889,0.9230769230769231,0.8571428571428571,cv_4_task_9
+MHFP + Ridge Classifier,0.5454545454545454,0.5,0.6,cv_4_task_10
+MHFP + Ridge Classifier,0.9,0.9,0.9,cv_4_task_11
+MHFP + Ridge Classifier,0.8695652173913043,0.9375,0.8108108108108109,cv_4_task_12
+MHFP + Ridge Classifier,0.9382716049382716,0.95,0.926829268292683,cv_4_task_13
+MHFP + Ridge Classifier,0.972972972972973,1.0,0.9473684210526315,cv_4_task_14
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_0
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_1
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_2
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_3
+Morgan FP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_0_task_4
+Morgan FP + Ridge Classifier,0.6666666666666666,0.5,1.0,cv_0_task_5
+Morgan FP + Ridge Classifier,0.7142857142857143,0.7142857142857143,0.7142857142857143,cv_0_task_6
+Morgan FP + Ridge Classifier,0.75,0.75,0.75,cv_0_task_7
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_8
+Morgan FP + Ridge Classifier,0.7272727272727272,0.8,0.6666666666666666,cv_0_task_9
+Morgan FP + Ridge Classifier,0.4,0.3333333333333333,0.5,cv_0_task_10
+Morgan FP + Ridge Classifier,0.8275862068965517,0.75,0.9230769230769231,cv_0_task_11
+Morgan FP + Ridge Classifier,0.9662921348314608,0.9772727272727273,0.9555555555555556,cv_0_task_12
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_0_task_13
+Morgan FP + Ridge Classifier,0.972972972972973,1.0,0.9473684210526315,cv_0_task_14
+Morgan FP + Ridge Classifier,0.9142857142857143,0.9411764705882353,0.8888888888888888,cv_1_task_0
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_1_task_1
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_1_task_2
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_1_task_3
+Morgan FP + Ridge Classifier,0.6666666666666666,1.0,0.5,cv_1_task_4
+Morgan FP + Ridge Classifier,0.6666666666666666,1.0,0.5,cv_1_task_5
+Morgan FP + Ridge Classifier,0.36363636363636365,0.6666666666666666,0.25,cv_1_task_6
+Morgan FP + Ridge Classifier,0.5714285714285715,1.0,0.4,cv_1_task_7
+Morgan FP + Ridge Classifier,0.888888888888889,1.0,0.8,cv_1_task_8
+Morgan FP + Ridge Classifier,0.7,0.7,0.7,cv_1_task_9
+Morgan FP + Ridge Classifier,0.3333333333333333,0.5,0.25,cv_1_task_10
+Morgan FP + Ridge Classifier,0.8,0.9090909090909091,0.7142857142857143,cv_1_task_11
+Morgan FP + Ridge Classifier,0.9620253164556962,0.95,0.9743589743589743,cv_1_task_12
+Morgan FP + Ridge Classifier,0.9393939393939394,0.9117647058823529,0.96875,cv_1_task_13
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_1_task_14
+Morgan FP + Ridge Classifier,0.8571428571428571,1.0,0.75,cv_2_task_0
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_2_task_1
+Morgan FP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_2_task_2
+Morgan FP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_2_task_3
+Morgan FP + Ridge Classifier,0.8,1.0,0.6666666666666666,cv_2_task_4
+Morgan FP + Ridge Classifier,0.4,0.5,0.3333333333333333,cv_2_task_5
+Morgan FP + Ridge Classifier,0.6666666666666666,0.7777777777777778,0.5833333333333334,cv_2_task_6
+Morgan FP + Ridge Classifier,0.625,1.0,0.45454545454545453,cv_2_task_7
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_2_task_8
+Morgan FP + Ridge Classifier,0.6,0.6666666666666666,0.5454545454545454,cv_2_task_9
+Morgan FP + Ridge Classifier,0.6,0.6,0.6,cv_2_task_10
+Morgan FP + Ridge Classifier,0.787878787878788,0.7647058823529411,0.8125,cv_2_task_11
+Morgan FP + Ridge Classifier,0.9736842105263158,0.9736842105263158,0.9736842105263158,cv_2_task_12
+Morgan FP + Ridge Classifier,0.9850746268656716,0.9705882352941176,1.0,cv_2_task_13
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_2_task_14
+Morgan FP + Ridge Classifier,0.962962962962963,1.0,0.9285714285714286,cv_3_task_0
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_1
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_2
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_3
+Morgan FP + Ridge Classifier,0.9090909090909091,0.8333333333333334,1.0,cv_3_task_4
+Morgan FP + Ridge Classifier,0.4444444444444444,0.6666666666666666,0.3333333333333333,cv_3_task_5
+Morgan FP + Ridge Classifier,0.8421052631578948,0.8888888888888888,0.8,cv_3_task_6
+Morgan FP + Ridge Classifier,0.8000000000000002,0.8,0.8,cv_3_task_7
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_3_task_8
+Morgan FP + Ridge Classifier,0.7142857142857143,0.625,0.8333333333333334,cv_3_task_9
+Morgan FP + Ridge Classifier,0.7272727272727272,0.8,0.6666666666666666,cv_3_task_10
+Morgan FP + Ridge Classifier,0.9230769230769231,0.9473684210526315,0.9,cv_3_task_11
+Morgan FP + Ridge Classifier,0.9782608695652174,1.0,0.9574468085106383,cv_3_task_12
+Morgan FP + Ridge Classifier,0.9824561403508771,1.0,0.9655172413793104,cv_3_task_13
+Morgan FP + Ridge Classifier,0.9411764705882353,1.0,0.8888888888888888,cv_3_task_14
+Morgan FP + Ridge Classifier,0.8421052631578948,0.8888888888888888,0.8,cv_4_task_0
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_4_task_1
+Morgan FP + Ridge Classifier,0.9090909090909091,1.0,0.8333333333333334,cv_4_task_2
+Morgan FP + Ridge Classifier,0.9090909090909091,1.0,0.8333333333333334,cv_4_task_3
+Morgan FP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_4_task_4
+Morgan FP + Ridge Classifier,0.33333333333333337,1.0,0.2,cv_4_task_5
+Morgan FP + Ridge Classifier,0.9090909090909091,0.8333333333333334,1.0,cv_4_task_6
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_4_task_7
+Morgan FP + Ridge Classifier,1.0,1.0,1.0,cv_4_task_8
+Morgan FP + Ridge Classifier,0.923076923076923,1.0,0.8571428571428571,cv_4_task_9
+Morgan FP + Ridge Classifier,0.5714285714285715,1.0,0.4,cv_4_task_10
+Morgan FP + Ridge Classifier,0.8181818181818182,0.75,0.9,cv_4_task_11
+Morgan FP + Ridge Classifier,0.904109589041096,0.9428571428571428,0.868421052631579,cv_4_task_12
+Morgan FP + Ridge Classifier,0.9629629629629629,0.975,0.9512195121951219,cv_4_task_13
+Morgan FP + Ridge Classifier,0.9473684210526316,1.0,0.9,cv_4_task_14
+Neural NPFP + MLPs (Classifier Chain),0.8799999999999999,0.8461538461538461,0.9166666666666666,cv_0_task_0
+Neural NPFP + MLPs (Classifier Chain),1.0,1.0,1.0,cv_0_task_1
+Neural NPFP + MLPs (Classifier Chain),1.0,1.0,1.0,cv_0_task_2
+Neural NPFP + MLPs (Classifier Chain),1.0,1.0,1.0,cv_0_task_3
+Neural NPFP + MLPs (Classifier Chain),0.7142857142857143,0.7142857142857143,0.7142857142857143,cv_0_task_4
+Neural NPFP + MLPs (Classifier Chain),0.8,0.6666666666666666,1.0,cv_0_task_5
+Neural NPFP + MLPs (Classifier Chain),0.42857142857142855,0.42857142857142855,0.42857142857142855,cv_0_task_6
+Neural NPFP + MLPs (Classifier Chain),0.0,0.0,0.0,cv_0_task_7
+Neural NPFP + MLPs (Classifier Chain),0.5,0.3333333333333333,1.0,cv_0_task_8
+Neural NPFP + MLPs (Classifier Chain),0.8799999999999999,0.8461538461538461,0.9166666666666666,cv_0_task_9
+Neural NPFP + MLPs (Classifier Chain),0.0,0.0,0.0,cv_0_task_10
+Neural NPFP + MLPs (Classifier Chain),0.5833333333333334,0.6363636363636364,0.5384615384615384,cv_0_task_11
+Neural NPFP + MLPs (Classifier Chain),0.9565217391304347,0.9361702127659575,0.9777777777777777,cv_0_task_12
+Neural NPFP + MLPs (Classifier Chain),0.9589041095890412,0.9722222222222222,0.9459459459459459,cv_0_task_13
+Neural NPFP + MLPs (Classifier Chain),0.8235294117647058,0.9333333333333333,0.7368421052631579,cv_0_task_14
+Neural NPFP + MLPs (Classifier Chain),0.8750000000000001,1.0,0.7777777777777778,cv_1_task_0
+Neural NPFP + MLPs (Classifier Chain),1.0,1.0,1.0,cv_1_task_1
+Neural NPFP + MLPs (Classifier Chain),0.8000000000000002,0.8,0.8,cv_1_task_2
+Neural NPFP + MLPs (Classifier Chain),0.8000000000000002,0.8,0.8,cv_1_task_3
+Neural NPFP + MLPs (Classifier Chain),0.6666666666666666,1.0,0.5,cv_1_task_4
+Neural NPFP + MLPs (Classifier Chain),0.36363636363636365,0.6666666666666666,0.25,cv_1_task_5
+Neural NPFP + MLPs (Classifier Chain),0.2,0.5,0.125,cv_1_task_6
+Neural NPFP + MLPs (Classifier Chain),0.5714285714285715,1.0,0.4,cv_1_task_7
+Neural NPFP + MLPs (Classifier Chain),0.8000000000000002,0.8,0.8,cv_1_task_8
+Neural NPFP + MLPs (Classifier Chain),0.5833333333333334,0.5,0.7,cv_1_task_9
+Neural NPFP + MLPs (Classifier Chain),0.28571428571428575,0.3333333333333333,0.25,cv_1_task_10
+Neural NPFP + MLPs (Classifier Chain),0.75,0.9,0.6428571428571429,cv_1_task_11
+Neural NPFP + MLPs (Classifier Chain),0.888888888888889,0.8571428571428571,0.9230769230769231,cv_1_task_12
+Neural NPFP + MLPs (Classifier Chain),0.9508196721311475,1.0,0.90625,cv_1_task_13
+Neural NPFP + MLPs (Classifier Chain),0.9600000000000001,0.9230769230769231,1.0,cv_1_task_14
+Neural NPFP + MLPs (Classifier Chain),0.9333333333333333,1.0,0.875,cv_2_task_0
+Neural NPFP + MLPs (Classifier Chain),0.888888888888889,1.0,0.8,cv_2_task_1
+Neural NPFP + MLPs (Classifier Chain),1.0,1.0,1.0,cv_2_task_2
+Neural NPFP + MLPs (Classifier Chain),1.0,1.0,1.0,cv_2_task_3
+Neural NPFP + MLPs (Classifier Chain),0.9090909090909091,1.0,0.8333333333333334,cv_2_task_4
+Neural NPFP + MLPs (Classifier Chain),0.3333333333333333,0.3333333333333333,0.3333333333333333,cv_2_task_5
+Neural NPFP + MLPs (Classifier Chain),0.6666666666666666,0.7777777777777778,0.5833333333333334,cv_2_task_6
+Neural NPFP + MLPs (Classifier Chain),0.625,1.0,0.45454545454545453,cv_2_task_7
+Neural NPFP + MLPs (Classifier Chain),0.5454545454545454,0.75,0.42857142857142855,cv_2_task_8
+Neural NPFP + MLPs (Classifier Chain),0.7272727272727273,0.7272727272727273,0.7272727272727273,cv_2_task_9
+Neural NPFP + MLPs (Classifier Chain),0.5714285714285715,1.0,0.4,cv_2_task_10
+Neural NPFP + MLPs (Classifier Chain),0.75,0.75,0.75,cv_2_task_11
+Neural NPFP + MLPs (Classifier Chain),0.9620253164556963,0.926829268292683,1.0,cv_2_task_12
+Neural NPFP + MLPs (Classifier Chain),0.9696969696969697,0.9696969696969697,0.9696969696969697,cv_2_task_13
+Neural NPFP + MLPs (Classifier Chain),0.962962962962963,0.9285714285714286,1.0,cv_2_task_14
+Neural NPFP + MLPs (Classifier Chain),0.782608695652174,1.0,0.6428571428571429,cv_3_task_0
+Neural NPFP + MLPs (Classifier Chain),1.0,1.0,1.0,cv_3_task_1
+Neural NPFP + MLPs (Classifier Chain),0.6666666666666666,0.5,1.0,cv_3_task_2
+Neural NPFP + MLPs (Classifier Chain),0.6666666666666666,0.5,1.0,cv_3_task_3
+Neural NPFP + MLPs (Classifier Chain),0.9090909090909091,0.8333333333333334,1.0,cv_3_task_4
+Neural NPFP + MLPs (Classifier Chain),0.5,1.0,0.3333333333333333,cv_3_task_5
+Neural NPFP + MLPs (Classifier Chain),0.7368421052631577,0.7777777777777778,0.7,cv_3_task_6
+Neural NPFP + MLPs (Classifier Chain),0.7272727272727272,0.6666666666666666,0.8,cv_3_task_7
+Neural NPFP + MLPs (Classifier Chain),0.4,0.5,0.3333333333333333,cv_3_task_8
+Neural NPFP + MLPs (Classifier Chain),0.5,0.5,0.5,cv_3_task_9
+Neural NPFP + MLPs (Classifier Chain),0.7272727272727272,0.8,0.6666666666666666,cv_3_task_10
+Neural NPFP + MLPs (Classifier Chain),0.8095238095238095,0.7727272727272727,0.85,cv_3_task_11
+Neural NPFP + MLPs (Classifier Chain),0.9347826086956522,0.9555555555555556,0.9148936170212766,cv_3_task_12
+Neural NPFP + MLPs (Classifier Chain),0.9090909090909091,0.9615384615384616,0.8620689655172413,cv_3_task_13
+Neural NPFP + MLPs (Classifier Chain),0.9411764705882353,1.0,0.8888888888888888,cv_3_task_14
+Neural NPFP + MLPs (Classifier Chain),0.8421052631578948,0.8888888888888888,0.8,cv_4_task_0
+Neural NPFP + MLPs (Classifier Chain),1.0,1.0,1.0,cv_4_task_1
+Neural NPFP + MLPs (Classifier Chain),0.9090909090909091,1.0,0.8333333333333334,cv_4_task_2
+Neural NPFP + MLPs (Classifier Chain),0.9090909090909091,1.0,0.8333333333333334,cv_4_task_3
+Neural NPFP + MLPs (Classifier Chain),0.8333333333333333,1.0,0.7142857142857143,cv_4_task_4
+Neural NPFP + MLPs (Classifier Chain),0.33333333333333337,1.0,0.2,cv_4_task_5
+Neural NPFP + MLPs (Classifier Chain),0.5,0.6666666666666666,0.4,cv_4_task_6
+Neural NPFP + MLPs (Classifier Chain),0.8,1.0,0.6666666666666666,cv_4_task_7
+Neural NPFP + MLPs (Classifier Chain),0.8,1.0,0.6666666666666666,cv_4_task_8
+Neural NPFP + MLPs (Classifier Chain),0.8148148148148148,0.8461538461538461,0.7857142857142857,cv_4_task_9
+Neural NPFP + MLPs (Classifier Chain),0.28571428571428575,0.5,0.2,cv_4_task_10
+Neural NPFP + MLPs (Classifier Chain),0.625,0.8333333333333334,0.5,cv_4_task_11
+Neural NPFP + MLPs (Classifier Chain),0.935064935064935,0.9230769230769231,0.9473684210526315,cv_4_task_12
+Neural NPFP + MLPs (Classifier Chain),0.9523809523809524,0.9302325581395349,0.975609756097561,cv_4_task_13
+Neural NPFP + MLPs (Classifier Chain),0.9473684210526316,1.0,0.9,cv_4_task_14
+MGCNN (Eguchi et al. 2019),0.8799999999999999,0.8461538461538461,0.9166666666666666,cv_0_task_0
+MGCNN (Eguchi et al. 2019),0.8571428571428571,0.75,1.0,cv_0_task_1
+MGCNN (Eguchi et al. 2019),0.923076923076923,0.8571428571428571,1.0,cv_0_task_2
+MGCNN (Eguchi et al. 2019),0.923076923076923,0.8571428571428571,1.0,cv_0_task_3
+MGCNN (Eguchi et al. 2019),0.7142857142857143,0.7142857142857143,0.7142857142857143,cv_0_task_4
+MGCNN (Eguchi et al. 2019),0.8,0.6666666666666666,1.0,cv_0_task_5
+MGCNN (Eguchi et al. 2019),0.6666666666666666,0.625,0.7142857142857143,cv_0_task_6
+MGCNN (Eguchi et al. 2019),0.5714285714285715,0.6666666666666666,0.5,cv_0_task_7
+MGCNN (Eguchi et al. 2019),1.0,1.0,1.0,cv_0_task_8
+MGCNN (Eguchi et al. 2019),0.9166666666666666,0.9166666666666666,0.9166666666666666,cv_0_task_9
+MGCNN (Eguchi et al. 2019),0.6666666666666666,1.0,0.5,cv_0_task_10
+MGCNN (Eguchi et al. 2019),0.8275862068965517,0.75,0.9230769230769231,cv_0_task_11
+MGCNN (Eguchi et al. 2019),0.9761904761904762,0.9761904761904762,0.9761904761904762,cv_0_task_12
+MGCNN (Eguchi et al. 2019),0.9850746268656716,1.0,0.9705882352941176,cv_0_task_13
+MGCNN (Eguchi et al. 2019),0.972972972972973,1.0,0.9473684210526315,cv_0_task_14
+MGCNN (Eguchi et al. 2019),0.9142857142857143,0.9411764705882353,0.8888888888888888,cv_1_task_0
+MGCNN (Eguchi et al. 2019),0.888888888888889,0.8,1.0,cv_1_task_1
+MGCNN (Eguchi et al. 2019),0.9090909090909091,0.8333333333333334,1.0,cv_1_task_2
+MGCNN (Eguchi et al. 2019),0.9090909090909091,0.8333333333333334,1.0,cv_1_task_3
+MGCNN (Eguchi et al. 2019),0.6666666666666666,0.5,1.0,cv_1_task_4
+MGCNN (Eguchi et al. 2019),0.9411764705882353,0.8888888888888888,1.0,cv_1_task_5
+MGCNN (Eguchi et al. 2019),0.875,0.875,0.875,cv_1_task_6
+MGCNN (Eguchi et al. 2019),0.3636363636363636,0.3333333333333333,0.4,cv_1_task_7
+MGCNN (Eguchi et al. 2019),0.7272727272727272,0.6666666666666666,0.8,cv_1_task_8
+MGCNN (Eguchi et al. 2019),0.7999999999999999,0.7272727272727273,0.8888888888888888,cv_1_task_9
+MGCNN (Eguchi et al. 2019),0.6666666666666665,0.6,0.75,cv_1_task_10
+MGCNN (Eguchi et al. 2019),0.962962962962963,0.9285714285714286,1.0,cv_1_task_11
+MGCNN (Eguchi et al. 2019),0.9859154929577464,0.9722222222222222,1.0,cv_1_task_12
+MGCNN (Eguchi et al. 2019),1.0,1.0,1.0,cv_1_task_13
+MGCNN (Eguchi et al. 2019),1.0,1.0,1.0,cv_1_task_14
+MGCNN (Eguchi et al. 2019),0.875,0.875,0.875,cv_2_task_0
+MGCNN (Eguchi et al. 2019),1.0,1.0,1.0,cv_2_task_1
+MGCNN (Eguchi et al. 2019),0.923076923076923,1.0,0.8571428571428571,cv_2_task_2
+MGCNN (Eguchi et al. 2019),1.0,1.0,1.0,cv_2_task_3
+MGCNN (Eguchi et al. 2019),0.923076923076923,0.8571428571428571,1.0,cv_2_task_4
+MGCNN (Eguchi et al. 2019),0.3333333333333333,0.3333333333333333,0.3333333333333333,cv_2_task_5
+MGCNN (Eguchi et al. 2019),0.7199999999999999,0.75,0.6923076923076923,cv_2_task_6
+MGCNN (Eguchi et al. 2019),0.6363636363636364,0.6363636363636364,0.6363636363636364,cv_2_task_7
+MGCNN (Eguchi et al. 2019),0.7999999999999999,0.75,0.8571428571428571,cv_2_task_8
+MGCNN (Eguchi et al. 2019),0.8,0.7142857142857143,0.9090909090909091,cv_2_task_9
+MGCNN (Eguchi et al. 2019),0.9090909090909091,0.8333333333333334,1.0,cv_2_task_10
+MGCNN (Eguchi et al. 2019),0.8235294117647058,0.8235294117647058,0.8235294117647058,cv_2_task_11
+MGCNN (Eguchi et al. 2019),0.9859154929577464,1.0,0.9722222222222222,cv_2_task_12
+MGCNN (Eguchi et al. 2019),0.9846153846153847,0.9696969696969697,1.0,cv_2_task_13
+MGCNN (Eguchi et al. 2019),0.9285714285714286,0.8666666666666667,1.0,cv_2_task_14
+MGCNN (Eguchi et al. 2019),0.9655172413793104,0.9333333333333333,1.0,cv_3_task_0
+MGCNN (Eguchi et al. 2019),1.0,1.0,1.0,cv_3_task_1
+MGCNN (Eguchi et al. 2019),1.0,1.0,1.0,cv_3_task_2
+MGCNN (Eguchi et al. 2019),1.0,1.0,1.0,cv_3_task_3
+MGCNN (Eguchi et al. 2019),0.9090909090909091,0.8333333333333334,1.0,cv_3_task_4
+MGCNN (Eguchi et al. 2019),0.6,0.75,0.5,cv_3_task_5
+MGCNN (Eguchi et al. 2019),0.6363636363636364,0.5384615384615384,0.7777777777777778,cv_3_task_6
+MGCNN (Eguchi et al. 2019),0.6666666666666666,0.5,1.0,cv_3_task_7
+MGCNN (Eguchi et al. 2019),1.0,1.0,1.0,cv_3_task_8
+MGCNN (Eguchi et al. 2019),0.8,0.6666666666666666,1.0,cv_3_task_9
+MGCNN (Eguchi et al. 2019),0.25,0.5,0.16666666666666666,cv_3_task_10
+MGCNN (Eguchi et al. 2019),0.8421052631578947,0.8421052631578947,0.8421052631578947,cv_3_task_11
+MGCNN (Eguchi et al. 2019),0.9230769230769231,0.9333333333333333,0.9130434782608695,cv_3_task_12
+MGCNN (Eguchi et al. 2019),0.9666666666666666,0.9354838709677419,1.0,cv_3_task_13
+MGCNN (Eguchi et al. 2019),0.9714285714285714,1.0,0.9444444444444444,cv_3_task_14
+MGCNN (Eguchi et al. 2019),0.8421052631578948,0.8888888888888888,0.8,cv_4_task_0
+MGCNN (Eguchi et al. 2019),1.0,1.0,1.0,cv_4_task_1
+MGCNN (Eguchi et al. 2019),0.9090909090909091,1.0,0.8333333333333334,cv_4_task_2
+MGCNN (Eguchi et al. 2019),0.9090909090909091,1.0,0.8333333333333334,cv_4_task_3
+MGCNN (Eguchi et al. 2019),0.923076923076923,1.0,0.8571428571428571,cv_4_task_4
+MGCNN (Eguchi et al. 2019),0.5,0.6666666666666666,0.4,cv_4_task_5
+MGCNN (Eguchi et al. 2019),0.7272727272727272,0.6666666666666666,0.8,cv_4_task_6
+MGCNN (Eguchi et al. 2019),0.5714285714285715,0.5,0.6666666666666666,cv_4_task_7
+MGCNN (Eguchi et al. 2019),1.0,1.0,1.0,cv_4_task_8
+MGCNN (Eguchi et al. 2019),0.962962962962963,0.9285714285714286,1.0,cv_4_task_9
+MGCNN (Eguchi et al. 2019),0.5,0.6666666666666666,0.4,cv_4_task_10
+MGCNN (Eguchi et al. 2019),0.761904761904762,0.7272727272727273,0.8,cv_4_task_11
+MGCNN (Eguchi et al. 2019),0.9090909090909091,0.8974358974358975,0.9210526315789473,cv_4_task_12
+MGCNN (Eguchi et al. 2019),0.9870129870129869,1.0,0.9743589743589743,cv_4_task_13
+MGCNN (Eguchi et al. 2019),0.975609756097561,1.0,0.9523809523809523,cv_4_task_14

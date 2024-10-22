@@ -2,12 +2,18 @@ Label,Scores,STD,Pipeline
 macro_f1_score,0.898321227681906,0.12023489084948566,Layered FP + Low Variance FS + Ridge Classifier
 macro_precision_score,0.9753371787854546,0.05839806670539616,Layered FP + Low Variance FS + Ridge Classifier
 macro_recall_score,0.8545653322249066,0.18398204881067465,Layered FP + Low Variance FS + Ridge Classifier
-macro_f1_score,0.8917759701238717,0.12006277600334611,Layered FP + Ridge Classifier
-macro_precision_score,0.8954848373685498,0.13963151700765492,Layered FP + Ridge Classifier
-macro_recall_score,0.9096128389965514,0.14570114997458744,Layered FP + Ridge Classifier
+macro_f1_score,0.8800857047771748,0.13264430458170048,NP classifier FP
+macro_precision_score,0.906357643688978,0.14069389783956396,NP classifier FP
+macro_recall_score,0.8666658305689853,0.15022214571944242,NP classifier FP
 macro_f1_score,0.8645845951084812,0.18484525269117807,Morgan FP + Ridge Classifier
 macro_precision_score,0.955886450714037,0.09688925284526975,Morgan FP + Ridge Classifier
 macro_recall_score,0.824474624584676,0.22800515900048907,Morgan FP + Ridge Classifier
+macro_f1_score,0.85163667656176,0.14920941188733222,MHFP
+macro_precision_score,0.930999986603435,0.1061553343238497,MHFP
+macro_recall_score,0.8084542912862795,0.20035959501626366,MHFP
 macro_f1_score,0.8313670437176287,0.14902430708565564,MGCNN (Eguchi et al. 2019)
 macro_precision_score,0.8334869398455086,0.19991843216398647,MGCNN (Eguchi et al. 2019)
 macro_recall_score,0.8714253464803721,0.1610616337627763,MGCNN (Eguchi et al. 2019)
+macro_f1_score,0.7459216773031468,0.2930288782802592,Neural NPFP
+macro_precision_score,0.7717978312431085,0.3056700931712335,Neural NPFP
+macro_recall_score,0.7445173342458742,0.30984615361456874,Neural NPFP
